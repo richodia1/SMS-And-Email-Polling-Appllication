@@ -1,0 +1,56 @@
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe.config
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\SMSGATE.pdb
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.Smpp.dll
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.SmppClient.dll
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\log4net.dll
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\Vas.EmailAlertMessage.dll
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Messaging.dll
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Protocols.dll
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\bin\Release\log4net.xml
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\obj\Release\SMSGATE.exe
+C:\Users\Developer\Documents\Visual Studio 2008\Projects\Project1\SMSGATE\SMSGATE\obj\Release\SMSGATE.pdb
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe.config
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.pdb
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.Smpp.dll
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.SmppClient.dll
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\log4net.dll
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.EmailAlertMessage.dll
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Messaging.dll
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Protocols.dll
+D:\Source\VasProject\SMSGATE\SMSGATE\bin\Release\log4net.xml
+D:\Source\VasProject\SMSGATE\SMSGATE\obj\Release\ResolveAssemblyReference.cache
+D:\Source\VasProject\SMSGATE\SMSGATE\obj\Release\SMSGATE.exe
+D:\Source\VasProject\SMSGATE\SMSGATE\obj\Release\SMSGATE.pdb
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe.config
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.pdb
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.Smpp.dll
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.SmppClient.dll
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\log4net.dll
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.EmailAlertMessage.dll
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Messaging.dll
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Protocols.dll
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\log4net.xml
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\obj\Release\ResolveAssemblyReference.cache
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\obj\Release\SMSGATE.exe
+C:\Tools\CompleteSource\VasProject\VasProject\SMSGATE\SMSGATE\obj\Release\SMSGATE.pdb
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe.config
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.exe
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\SMSGATE.pdb
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.Smpp.dll
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Devshock.Protocol.SmppClient.dll
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\log4net.dll
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.EmailAlertMessage.dll
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Messaging.dll
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\Vas.Transaction.Protocols.dll
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\bin\Release\log4net.xml
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\obj\Release\SMSGATE.exe
+C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\obj\Release\SMSGATE.pdb

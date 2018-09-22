@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SMSGATE.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ThraedSleepTime" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">00:00:03</Value>
+    </Setting>
+    <Setting Name="ConsoleTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SMS Gateway Version 1.0</Value>
+    </Setting>
+    <Setting Name="InternalMessageArrival" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">InternalVasQueue</Value>
+    </Setting>
+    <Setting Name="MessageDeparture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VasOutQueue</Value>
+    </Setting>
+    <Setting Name="DatabaseLoggerQueue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">VasLogger</Value>
+    </Setting>
+    <Setting Name="ExternalMessageArrival" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ExternalVasQueue</Value>
+    </Setting>
+    <Setting Name="InstrumentationFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">log4net.xml</Value>
+    </Setting>
+    <Setting Name="ErrorMessageQueue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">errorQueuepath</Value>
+    </Setting>
+    <Setting Name="DeliveryResponseMessageQueue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DeliveryResponseQueue</Value>
+    </Setting>
+    <Setting Name="ShortCodePrefixToTrim" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">234</Value>
+    </Setting>
+    <Setting Name="FileArchiveIntervalIndays" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">1.00:00:00</Value>
+    </Setting>
+    <Setting Name="NumberofFiletoArchive" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="databasename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Cybergate</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Server=204.232.170.34;user id=admin1;password=admin1;Database=CyberGate</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

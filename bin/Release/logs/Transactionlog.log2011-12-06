@@ -1,0 +1,1593 @@
+FATAL 2011-12-06 10:53:49,990 41830170ms Program                Main               - Data base Connection Error
+INFO  2011-12-06 11:02:21,760 42341940ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+INFO  2011-12-06 11:20:31,756 43431936ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-06 11:20:47,066 43447246ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-06 11:20:50,470 43450650ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-06 11:25:40,606 43740786ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01:Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+INFO  2011-12-06 11:26:15,314 43775494ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+ERROR 2011-12-06 11:26:50,742 43810922ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 11:27:11,307 43831487ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 11:27:11,498 43831678ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 11:27:15,896 43836076ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 11:27:42,096 43862276ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 11:27:50,297 43870477ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 11:28:01,584 43881764ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 11:28:07,439 43887619ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 11:28:08,858 43889038ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+INFO  2011-12-06 11:28:13,515 43893695ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 11:28:16,638 43896818ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 11:28:21,595 43901775ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 11:28:24,724 43904904ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-06 11:28:27,846 43908026ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-06 11:28:31,711 43911891ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-06 11:28:35,311 43915491ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-06 11:28:39,305 43919485ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-06 11:28:43,793 43923973ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-06 11:28:48,701 43928881ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+INFO  2011-12-06 11:28:52,659 43932839ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 18
+
+INFO  2011-12-06 11:29:14,945 43955125ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 19
+
+INFO  2011-12-06 11:29:18,496 43958676ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 20
+
+INFO  2011-12-06 11:30:05,331 44005511ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid ee803d76-2010-42af-9976-4cd666d10214
+
+WARN  2011-12-06 11:30:05,487 44005667ms SmppMessenger          ppconn_OnUnBindReq - SILVERSTREET:SILVERSTREET-BV_01: 9 Client disconnected : SequenceNumber [0] ConnGuid [ee803d76-2010-42af-9976-4cd666d10214] 
+
+ERROR 2011-12-06 11:30:05,518 44005698ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+ERROR 2011-12-06 11:30:09,367 44009547ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 11:30:09,726 44009906ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 11:30:11,656 44011836ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 11:30:14,788 44014968ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 11:30:17,916 44018096ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 11:30:21,042 44021222ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 11:30:24,166 44024346ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 12:10:49,893 1781369ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-06 12:10:51,437 1782912ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-06 12:11:02,144 1793619ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-06 12:11:26,090 1817565ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 12:11:27,874 1819350ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-06 12:11:32,054 1823530ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 12:11:43,536 1835012ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 12:12:09,230 1860706ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 12:12:13,466 1864941ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 12:12:19,386 1870862ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 12:12:35,648 1887124ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 12:12:43,830 1895305ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 12:12:46,561 1898037ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2011-12-06 12:12:48,353 1899828ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 12:12:52,145 1903620ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 12:12:55,593 1907069ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-06 12:12:58,724 1910200ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-06 12:13:02,861 1914337ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-06 12:13:08,456 1919931ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-06 12:13:11,569 1923045ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-06 12:28:25,839 2837315ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid bca549a0-6648-424a-8d98-3f2d0be3d1bd
+
+INFO  2011-12-06 12:39:44,480 122019ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-06 12:39:44,500 122039ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-06 12:39:48,182 125721ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-06 12:39:49,789 127328ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 12:39:50,213 127752ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-06 12:39:50,880 128419ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-06 12:39:57,980 135519ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 12:39:58,365 135904ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 12:40:03,527 141066ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 12:40:14,934 152473ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 12:40:20,209 157749ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+ERROR 2011-12-06 12:45:26,920 464459ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 12:45:33,380 470919ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid 66a63d64-ae3c-49e7-b03d-23269a7ed096
+
+INFO  2011-12-06 12:46:53,962 551502ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01:Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+ERROR 2011-12-06 12:47:07,349 564888ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 12:49:38,319 94809ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-06 12:49:39,606 96096ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-06 12:50:05,103 121592ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-06 12:50:23,971 140460ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 12:50:23,976 140465ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-06 12:50:42,771 159261ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 12:51:04,302 180791ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid 12e3d3a6-4bd0-413e-bc1e-eba2d4e23f0b
+
+INFO  2011-12-06 12:51:05,211 181701ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 12:51:12,031 188521ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 12:51:20,324 196813ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 12:51:24,900 201390ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 12:51:29,135 205625ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 12:51:36,245 212735ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 12:51:41,492 217982ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 12:51:51,310 227799ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 12:51:54,881 231370ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-06 12:51:59,131 235621ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-06 12:52:08,125 244615ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-06 12:52:12,906 249396ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-06 12:52:14,724 251214ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2011-12-06 12:52:18,373 254862ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-06 12:52:21,487 257977ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-06 12:52:25,323 261813ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+ERROR 2011-12-06 12:52:25,900 262390ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:25,921 262411ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:25,956 262445ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,002 262492ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,065 262555ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,099 262589ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,115 262604ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,173 262662ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,270 262759ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,295 262785ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,316 262806ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,363 262852ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,394 262884ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,413 262903ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,487 262976ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,515 263004ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,524 263013ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,542 263032ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,574 263064ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,587 263076ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,601 263091ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,633 263122ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,653 263143ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,665 263155ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,701 263191ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:26,714 263204ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,572 265062ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,593 265083ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,619 265109ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,638 265128ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,664 265154ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+INFO  2011-12-06 12:52:28,674 265164ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 18
+
+ERROR 2011-12-06 12:52:28,688 265178ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,707 265197ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,737 265227ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,757 265247ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,776 265266ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,795 265285ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,810 265300ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,818 265308ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,830 265320ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,876 265366ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,890 265380ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,902 265392ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,912 265402ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,922 265412ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,933 265423ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,951 265441ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,964 265454ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:28,986 265476ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,002 265492ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,015 265505ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,030 265520ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,041 265531ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,056 265546ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,064 265554ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,081 265571ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,094 265584ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,104 265594ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,122 265612ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,150 265640ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,164 265654ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,175 265665ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,187 265677ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,204 265694ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,217 265707ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,231 265721ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,241 265731ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,256 265746ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,264 265754ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,279 265769ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,288 265778ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,310 265800ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,325 265815ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,358 265848ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,381 265871ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,394 265884ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,406 265896ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,430 265920ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,439 265929ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,476 265966ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,485 265975ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,495 265985ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,502 265992ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,527 266017ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,543 266033ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,568 266058ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,588 266078ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,614 266104ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,628 266118ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,643 266133ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,655 266145ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,676 266166ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,702 266192ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,719 266209ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,732 266222ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,740 266230ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,753 266243ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,769 266259ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,785 266275ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,800 266290ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,823 266313ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,833 266323ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,845 266335ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,876 266365ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,890 266380ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,906 266396ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,931 266421ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,941 266430ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,971 266460ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,984 266474ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:29,997 266487ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,008 266498ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,031 266521ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,044 266533ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,055 266544ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,062 266552ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,076 266565ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,085 266575ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,091 266580ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,099 266589ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,105 266594ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,111 266601ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,124 266613ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,137 266626ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,157 266646ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,170 266659ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,209 266699ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,214 266704ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,225 266714ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,235 266725ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,243 266732ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,252 266742ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,262 266752ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,274 266764ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,286 266775ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,307 266796ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,317 266807ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,326 266815ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,334 266824ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,344 266833ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,355 266845ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,362 266852ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,376 266866ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,414 266903ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,426 266916ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,445 266935ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,454 266944ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,464 266953ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,477 266967ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,487 266976ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,505 266994ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,517 267006ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,542 267031ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,562 267051ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,572 267061ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,580 267069ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,588 267077ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,597 267086ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,606 267096ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,624 267113ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,631 267120ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,640 267130ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,647 267136ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,657 267147ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,665 267155ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,675 267164ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,680 267169ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,689 267178ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,706 267196ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,715 267205ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,734 267224ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,760 267250ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,790 267279ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,798 267288ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,807 267297ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,817 267307ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,826 267315ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,836 267325ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,844 267333ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,864 267353ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,875 267364ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,882 267372ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,900 267390ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,909 267399ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,917 267406ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,926 267416ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,935 267425ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,945 267434ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,956 267446ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,971 267460ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,988 267477ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:30,997 267487ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,010 267500ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,015 267505ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,021 267511ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,033 267522ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,043 267533ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,051 267541ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,063 267552ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,077 267566ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,086 267576ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,095 267584ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,104 267593ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,113 267603ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,118 267607ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,123 267613ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,134 267624ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,147 267637ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,162 267651ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,171 267660ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,182 267672ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,189 267678ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,199 267688ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,211 267701ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,219 267708ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,229 267718ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,236 267726ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,241 267731ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,246 267736ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,251 267741ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,303 267793ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,310 267800ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,318 267808ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,325 267815ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,340 267830ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,350 267840ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,355 267845ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,366 267856ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,377 267867ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,385 267875ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,397 267887ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,415 267905ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,426 267916ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,434 267924ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,440 267930ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,450 267940ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,465 267955ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,474 267964ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,487 267977ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,505 267995ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,533 268023ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:52:31,562 268052ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:59:54,399 710889ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+INFO  2011-12-06 12:59:56,150 712640ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 2: connGuid 12e3d3a6-4bd0-413e-bc1e-eba2d4e23f0b
+
+ERROR 2011-12-06 12:59:56,214 712704ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:59:56,325 712815ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:59:56,384 712874ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:59:56,424 712914ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:59:56,623 713113ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:59:56,693 713183ms Program                ilMessageCompleted - Cannot deserialize the message passed as an argument. Cannot recognize the serialization format.|   at System.Messaging.XmlMessageFormatter.Read(Message message)
+   at System.Messaging.Message.get_Body()
+   at SMSGATE.Program.PeekEmailMessageCompleted(Object source, PeekCompletedEventArgs asyncResult) in C:\Users\Adewale\Documents\CyberSpace\VasProject\VasProject\SMSGATE\SMSGATE\Program.cs:line 723
+
+ERROR 2011-12-06 12:59:56,741 713231ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 13:57:06,929 3417751ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-06 13:57:06,951 3417773ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-06 13:57:07,266 3418088ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-06 13:57:17,393 3428215ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-06 13:57:30,124 3440946ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 13:57:30,617 3441439ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-06 13:57:36,503 3447325ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 13:57:42,222 3453044ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 13:57:45,742 3456564ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 13:57:46,291 3457113ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2011-12-06 13:57:50,399 3461221ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 13:57:56,911 3467733ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 13:58:00,059 3470881ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 13:58:04,374 3475196ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 13:58:07,911 3478733ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 13:58:13,954 3484776ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 13:58:17,597 3488419ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-06 13:58:22,586 3493409ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-06 13:58:25,728 3496550ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-06 13:58:42,072 3512894ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-06 13:58:46,691 3517513ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-06 13:58:59,861 3530683ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-06 13:59:03,089 3533911ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+INFO  2011-12-06 13:59:06,212 3537035ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 18
+
+INFO  2011-12-06 13:59:12,925 3543747ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 19
+
+INFO  2011-12-06 13:59:17,728 3548550ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 20
+
+INFO  2011-12-06 13:59:22,071 3552894ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 21
+
+INFO  2011-12-06 13:59:50,519 3581341ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 22
+
+INFO  2011-12-06 13:59:53,644 3584466ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 23
+
+INFO  2011-12-06 14:00:02,802 3593624ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 24
+
+INFO  2011-12-06 14:00:09,717 3600539ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 25
+
+INFO  2011-12-06 14:00:15,118 3605940ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 26
+
+ERROR 2011-12-06 14:01:23,273 3674095ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+WARN  2011-12-06 14:01:27,178 3678000ms SmppMessenger          ppconn_OnUnBindReq - SILVERSTREET:SILVERSTREET-BV_01: 9 Client disconnected : SequenceNumber [0] ConnGuid [0873e850-4896-4c45-99af-2548f5400242] 
+
+ERROR 2011-12-06 14:01:30,740 3681562ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+INFO  2011-12-06 14:03:30,102 3800924ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01:Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+ERROR 2011-12-06 14:03:30,104 3800926ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+ERROR 2011-12-06 14:03:58,498 3829320ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 14:04:06,163 3836985ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 14:04:11,172 3841994ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 14:04:15,709 3846531ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 14:04:21,061 3851883ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 14:04:24,196 3855019ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 14:04:42,043 3872865ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 14:04:47,354 3878176ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 14:04:50,674 3881496ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 14:04:56,858 3887681ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 14:05:00,751 3891574ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 14:05:04,328 3895150ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+WARN  2011-12-06 14:06:31,459 3982281ms SmppMessenger          ppconn_OnUnBindReq - SILVERSTREET:SILVERSTREET-BV_01: 9 Client disconnected : SequenceNumber [0] ConnGuid [10fc1119-0d06-4686-897d-6e2cc60067f1] 
+
+ERROR 2011-12-06 14:06:33,028 3983850ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+ERROR 2011-12-06 14:06:34,456 3985278ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 14:06:34,799 3985622ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 14:06:37,541 3988363ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 14:06:41,479 3992301ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 14:06:45,795 3996618ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 14:06:48,938 3999760ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 14:06:52,064 4002886ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 14:06:56,383 4007205ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 14:06:59,505 4010327ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 14:07:03,635 4014457ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 14:07:06,981 4017803ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 14:07:11,317 4022139ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-06 14:43:35,404 6206226ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid 8299e5cd-5ab4-4b5c-8fbe-092e8fbf01d6
+
+INFO  2011-12-06 14:55:05,834 661418ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-06 14:55:08,283 663868ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-06 14:55:08,282 663866ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-06 14:55:10,776 666361ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-06 14:55:31,432 687017ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 14:55:35,652 691236ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-06 14:55:42,109 697694ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 14:55:42,637 698222ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 14:55:46,364 701949ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 14:55:51,444 707028ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 14:55:55,224 710809ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 14:56:02,611 718196ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2011-12-06 14:56:03,503 719088ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 14:56:06,644 722229ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 14:56:09,811 725396ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 14:56:15,614 731199ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 14:56:30,260 745844ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-06 14:56:40,637 756222ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-06 14:57:11,596 787180ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-06 14:57:15,526 791110ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-06 14:57:21,172 796757ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-06 14:57:30,458 806043ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-06 14:57:37,776 813360ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+WARN  2011-12-06 15:09:31,255 1526839ms SmppMessenger          ppconn_OnUnBindReq - SILVERSTREET:SILVERSTREET-BV_01: 9 Client disconnected : SequenceNumber [0] ConnGuid [721b6fc8-a10c-4afb-9966-f2d78b142328] 
+
+ERROR 2011-12-06 15:09:33,040 1528625ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+ERROR 2011-12-06 15:09:33,044 1528628ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+ERROR 2011-12-06 15:09:34,931 1530515ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2011-12-06 15:09:37,408 1532992ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-06 15:09:41,855 1537439ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-06 15:10:26,238 1581822ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-06 15:10:26,245 1581830ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid 9743cf06-f50c-4f1d-961d-7baf81db389e
+
+INFO  2011-12-06 15:10:29,395 1584980ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-06 15:10:37,739 1593324ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-06 15:10:43,482 1599066ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-06 15:10:46,693 1602277ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-06 15:10:50,249 1605833ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-06 15:10:53,558 1609142ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-06 15:10:56,886 1612471ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-06 15:11:00,011 1615596ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-06 15:11:03,199 1618783ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-06 15:11:06,334 1621918ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-06 15:11:09,524 1625108ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-06 15:11:12,679 1628264ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-06 15:11:15,848 1631432ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-06 15:11:18,969 1634554ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+INFO  2011-12-06 15:11:22,104 1637688ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 18
+
+INFO  2011-12-06 15:11:25,286 1640871ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 19
+
+INFO  2011-12-06 15:11:28,432 1644016ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 20
+
+INFO  2011-12-06 15:11:31,555 1647140ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 21
+
+INFO  2011-12-06 15:11:34,688 1650272ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 22
+
+INFO  2011-12-06 15:11:37,867 1653451ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 23
+
+INFO  2011-12-06 15:11:41,001 1656586ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 24
+
+INFO  2011-12-06 15:11:44,181 1659765ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 25
+
+INFO  2011-12-06 15:11:47,568 1663152ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 26
+
+INFO  2011-12-06 15:11:50,839 1666424ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 27
+
+INFO  2011-12-06 15:11:53,964 1669549ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 28
+
+INFO  2011-12-06 15:11:57,762 1673346ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 29
+
+INFO  2011-12-06 15:12:01,042 1676626ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 30
+
+INFO  2011-12-06 15:12:04,170 1679754ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 31
+
+INFO  2011-12-06 15:12:07,292 1682877ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 32
+
+INFO  2011-12-06 15:12:10,505 1686090ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 33
+
+INFO  2011-12-06 15:12:13,633 1689217ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 34
+
+INFO  2011-12-06 15:12:16,762 1692346ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 35
+
+INFO  2011-12-06 15:12:19,906 1695491ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 36
+
+INFO  2011-12-06 15:12:23,035 1698619ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 37
+
+INFO  2011-12-06 15:12:26,183 1701767ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 38
+
+INFO  2011-12-06 15:12:29,336 1704920ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 39
+
+INFO  2011-12-06 15:12:32,472 1708056ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 40
+
+INFO  2011-12-06 15:12:35,634 1711218ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 41
+
+INFO  2011-12-06 15:12:38,797 1714381ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 42
+
+INFO  2011-12-06 15:12:41,984 1717568ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 43
+
+INFO  2011-12-06 15:12:45,110 1720695ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 44
+
+INFO  2011-12-06 15:12:48,246 1723830ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 45
+
+INFO  2011-12-06 15:12:51,563 1727148ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 46
+
+INFO  2011-12-06 15:12:54,757 1730341ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 47
+
+INFO  2011-12-06 15:12:57,928 1733513ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 48
+
+INFO  2011-12-06 15:13:01,063 1736647ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 49
+
+INFO  2011-12-06 15:13:04,187 1739771ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 50
+
+INFO  2011-12-06 15:13:07,351 1742936ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 51
+
+INFO  2011-12-06 15:13:10,506 1746090ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 52
+
+INFO  2011-12-06 15:13:13,819 1749404ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 53
+
+INFO  2011-12-06 15:13:16,969 1752554ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 54
+
+INFO  2011-12-06 15:13:20,130 1755714ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 55
+
+INFO  2011-12-06 15:13:23,273 1758857ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 56
+
+INFO  2011-12-06 15:13:26,431 1762015ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 57
+
+INFO  2011-12-06 15:13:29,577 1765161ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 58
+
+INFO  2011-12-06 15:13:32,707 1768291ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 59
+
+INFO  2011-12-06 15:13:35,837 1771421ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 60
+
+INFO  2011-12-06 15:13:38,964 1774548ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 61
+
+INFO  2011-12-06 15:13:42,091 1777676ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 62
+
+INFO  2011-12-06 15:13:45,215 1780800ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 63
+
+INFO  2011-12-06 15:13:48,341 1783926ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 64
+
+INFO  2011-12-06 15:13:51,466 1787050ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 65
+
+INFO  2011-12-06 15:13:54,602 1790187ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 66
+
+INFO  2011-12-06 15:13:57,733 1793318ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 67
+
+INFO  2011-12-06 15:14:00,881 1796466ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 68
+
+INFO  2011-12-06 15:14:03,998 1799582ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 69
+
+INFO  2011-12-06 15:14:07,130 1802714ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 70
+
+INFO  2011-12-06 15:14:10,253 1805837ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 71
+
+INFO  2011-12-06 15:14:13,390 1808974ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 72
+
+INFO  2011-12-06 15:14:16,516 1812100ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 73
+
+INFO  2011-12-06 15:14:19,643 1815227ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 74
+
+INFO  2011-12-06 15:14:22,771 1818355ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 75
+
+INFO  2011-12-06 15:14:25,902 1821486ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 76
+
+INFO  2011-12-06 15:14:29,045 1824629ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 77
+
+INFO  2011-12-06 15:14:32,173 1827758ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 78
+
+INFO  2011-12-06 15:14:35,296 1830880ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 79
+
+INFO  2011-12-06 15:14:38,918 1834502ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 80
+
+INFO  2011-12-06 15:14:42,061 1837646ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 81
+
+INFO  2011-12-06 15:14:45,189 1840774ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 82
+
+INFO  2011-12-06 15:14:48,320 1843904ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 83
+
+INFO  2011-12-06 15:14:51,451 1847036ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 84
+
+INFO  2011-12-06 15:14:54,570 1850154ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 85
+
+INFO  2011-12-06 15:14:57,690 1853274ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 86
+
+INFO  2011-12-06 15:15:00,815 1856399ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 87
+
+INFO  2011-12-06 15:15:03,939 1859524ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 88
+
+INFO  2011-12-06 15:15:07,070 1862655ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 89
+
+INFO  2011-12-06 15:15:10,192 1865776ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 90
+
+INFO  2011-12-06 15:15:13,319 1868903ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 91
+
+INFO  2011-12-06 15:15:16,443 1872028ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 92
+
+INFO  2011-12-06 15:15:19,562 1875147ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 93
+
+INFO  2011-12-06 15:15:22,690 1878275ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 94
+
+INFO  2011-12-06 15:15:25,815 1881399ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 95
+
+INFO  2011-12-06 15:15:28,939 1884524ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 96
+
+INFO  2011-12-06 15:15:32,067 1887652ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 97
+
+INFO  2011-12-06 15:15:35,192 1890776ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 98
+
+INFO  2011-12-06 15:15:38,323 1893907ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 99
+
+INFO  2011-12-06 15:15:46,241 1901825ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 100
+
+INFO  2011-12-06 15:15:50,073 1905657ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 101
+
+INFO  2011-12-06 15:15:53,205 1908790ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 102
+
+INFO  2011-12-06 15:15:56,335 1911919ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 103
+
+INFO  2011-12-06 15:15:59,466 1915051ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 104
+

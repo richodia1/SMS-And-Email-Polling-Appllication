@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB49C91D-B11A-4DBB-B1EB-3E52B3F687BE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMSGATE</RootNamespace>
+    <AssemblyName>SMSGATE</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Devshock.Protocol.Smpp, Version=1.0.280.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Devshock.Protocol.SmppClient, Version=0.1.163.0, Culture=neutral, PublicKeyToken=b5467b9a545e345e" />
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>src\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>src\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Vas.EmailAlertMessage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Vas.Transaction.Messaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Vas.Transaction.Protocols, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Common\CEmailAlert.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="src\Common\CEmailConfig.cs" />
+    <Compile Include="src\Common\CFileCompressionUtility.cs" />
+    <Compile Include="src\Common\StringExtension.cs" />
+    <Compile Include="src\DAL\CProtocols.cs" />
+    <Compile Include="src\DAL\DataAccessLayer.cs" />
+    <Compile Include="src\WapMessage\HexDecoder.cs" />
+    <Compile Include="src\WapMessage\PushMessage.cs" />
+    <Compile Include="src\Queues\CQueueManager.cs" />
+    <Compile Include="src\WapMessage\ServiceIndication.cs" />
+    <Compile Include="src\SMPP\SmppMessenger.cs" />
+    <Compile Include="src\SMPP\SmppReceiver.cs" />
+    <Compile Include="src\SMPP\SmppTranceiver.cs" />
+    <Compile Include="src\SMPP\SmppTransmitter.cs" />
+    <Compile Include="src\WapMessage\WBXML.cs" />
+    <Compile Include="src\WapMessage\WDP.cs" />
+    <Compile Include="src\WapMessage\WSP.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lib\Devshock.Protocol.Smpp.dll" />
+    <Content Include="Lib\Devshock.Protocol.SmppClient.dll" />
+    <Content Include="Lib\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Lib\log4net.dll" />
+    <Content Include="Lib\log4net.xml" />
+    <Content Include="Lib\Vas.EmailAlertMessage.dll" />
+    <Content Include="Lib\Vas.Transaction.Messaging.dll" />
+    <Content Include="Lib\Vas.Transaction.Protocols.dll" />
+    <Content Include="src\Queues\Lib\Devshock.Protocol.Smpp.dll" />
+    <Content Include="src\Queues\Lib\Devshock.Protocol.SmppClient.dll" />
+    <Content Include="src\Queues\Lib\log4net.xml" />
+    <Content Include="src\Queues\Lib\Vas.Transaction.Messaging.dll" />
+    <Content Include="src\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

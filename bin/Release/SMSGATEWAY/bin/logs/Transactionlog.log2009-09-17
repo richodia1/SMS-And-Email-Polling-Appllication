@@ -1,0 +1,438 @@
+INFO  2009-09-17 05:08:06,846  5389ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_IN
+
+INFO  2009-09-17 05:08:06,852  5395ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_OUT
+
+INFO  2009-09-17 05:08:07,060  5603ms SmppMessenger          itializeParameters - SMSJ:SMSJUNCTION02 Client Initialized Successfully
+
+INFO  2009-09-17 05:08:07,352  5895ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2009-09-17 05:08:09,974  8517ms SmppMessenger          itializeParameters - VISAFONE:VISAFONE-CDMA-01 Client Initialized Successfully
+
+INFO  2009-09-17 05:08:09,980  8523ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_OUT
+
+INFO  2009-09-17 05:08:10,075  8618ms Program                SmppMessageHandler - Bind Count as at Stated Period : 2
+
+WARN  2009-09-17 05:08:10,760  9303ms Program                HttpReciverHandler - Http IP Host Address: 127.0.0.1
+
+INFO  2009-09-17 05:08:10,766  9309ms Program                CreateHttpListener - url=http://127.0.0.1:5021/
+
+INFO  2009-09-17 05:08:10,785  9328ms Program                CreateHttpListener - Waiting for HTTP request to be processed asyncronously.
+INFO  2009-09-17 05:08:10,787  9330ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+ERROR 2009-09-17 05:08:11,393  9936ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:08:57,229 55772ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2009-09-17 05:08:57,334 55877ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+ERROR 2009-09-17 05:09:10,257 68800ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:13,260 71803ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:14,392 72935ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:17,369 75912ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:18,410 76953ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:21,410 79953ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:22,424 80967ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:25,429 83972ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:26,566 85109ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:29,506 88049ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:30,581 89124ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:33,529 92072ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:34,594 93137ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:37,560 96103ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:38,611 97154ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:41,577 100120ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:42,634 101177ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:45,597 104140ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:46,653 105196ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:49,614 108157ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:50,685 109228ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:53,629 112172ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:54,699 113242ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:57,644 116187ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:09:58,714 117257ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:01,675 120218ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:02,741 121284ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:05,705 124248ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:06,760 125303ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:09,725 128268ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:10,783 129326ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:13,740 132283ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:14,800 133343ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:17,754 136297ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:18,816 137359ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:21,771 140314ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:22,838 141381ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:25,789 144332ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:26,860 145403ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:29,812 148355ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:30,908 149451ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:33,826 152369ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:34,992 153535ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:37,841 156384ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:39,010 157553ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:41,856 160399ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:43,026 161569ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:45,870 164413ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:47,042 165585ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:49,884 168427ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:51,058 169601ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:53,897 172440ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:55,079 173622ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:57,919 176462ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:10:59,108 177651ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:01,932 180475ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:03,123 181666ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:05,987 184530ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:07,143 185686ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:10,015 188558ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:11,163 189706ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2009-09-17 05:11:51,620  5731ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_IN
+
+INFO  2009-09-17 05:11:51,700  5811ms SmppMessenger          itializeParameters - SMSJ:SMSJUNCTION02 Client Initialized Successfully
+
+INFO  2009-09-17 05:11:51,738  5849ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2009-09-17 05:11:52,011  6122ms SmppMessenger          itializeParameters - VISAFONE:VISAFONE-CDMA-01 Client Initialized Successfully
+
+INFO  2009-09-17 05:11:52,012  6123ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_OUT
+
+INFO  2009-09-17 05:11:52,038  6149ms Program                SmppMessageHandler - Bind Count as at Stated Period : 2
+
+WARN  2009-09-17 05:11:52,384  6495ms Program                HttpReciverHandler - Http IP Host Address: 127.0.0.1
+
+INFO  2009-09-17 05:11:52,389  6500ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2009-09-17 05:11:52,397  6508ms Program                CreateHttpListener - url=http://127.0.0.1:5021/
+
+INFO  2009-09-17 05:11:52,416  6527ms Program                CreateHttpListener - Waiting for HTTP request to be processed asyncronously.
+INFO  2009-09-17 05:11:52,472  6583ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+ERROR 2009-09-17 05:11:55,740  9851ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:56,038 10149ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:11:59,770 13881ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:12:00,068 14179ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:12:03,782 17893ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:12:04,084 18195ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:12:07,804 21915ms Program                SmppMessageHandler - SMSJ:SMSJUNCTION02->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2009-09-17 05:12:08,104 22215ms Program                SmppMessageHandler - VISAFONE:VISAFONE-CDMA-01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2009-09-17 05:17:00,891  5958ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_IN
+
+INFO  2009-09-17 05:17:00,986  6053ms SmppMessenger          itializeParameters - SMSJ:SMSJUNCTION02 Client Initialized Successfully
+
+INFO  2009-09-17 05:17:01,345  6412ms SmppMessenger          itializeParameters - VISAFONE:VISAFONE-CDMA-01 Client Initialized Successfully
+
+INFO  2009-09-17 05:17:01,352  6419ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_IN
+
+INFO  2009-09-17 05:17:01,381  6448ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_OUT
+
+INFO  2009-09-17 05:17:01,573  6640ms SmppMessenger          Connect            - VISAFONE:VISAFONE-CDMA-01 Tranceiver Client Connected Successfully
+
+INFO  2009-09-17 05:17:01,574  6641ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+WARN  2009-09-17 05:17:01,922  6989ms Program                HttpReciverHandler - Http IP Host Address: 212.100.64.25
+
+INFO  2009-09-17 05:17:01,928  6995ms Program                CreateHttpListener - url=http://212.100.64.25:5021/
+
+INFO  2009-09-17 05:17:01,968  7035ms Program                CreateHttpListener - Waiting for HTTP request to be processed asyncronously.
+INFO  2009-09-17 05:17:01,976  7043ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2009-09-17 05:17:02,079  7146ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+INFO  2009-09-17 05:17:02,200  7267ms SmppMessenger          Connect            - SMSJ:SMSJUNCTION02 Tranceiver Client Connected Successfully
+
+INFO  2009-09-17 05:17:02,200  7267ms Program                SmppMessageHandler - Bind Count as at Stated Period : 2
+
+INFO  2009-09-17 05:17:04,592  9659ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 2
+
+INFO  2009-09-17 05:17:04,997 10064ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518066516: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:05,797 10864ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 2
+
+INFO  2009-09-17 05:17:07,600 12667ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 3
+
+INFO  2009-09-17 05:17:09,397 14464ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 3
+
+INFO  2009-09-17 05:17:10,013 15080ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518068931: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:10,609 15676ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 4
+
+INFO  2009-09-17 05:17:12,989 18056ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 4
+
+INFO  2009-09-17 05:17:13,621 18688ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 5
+
+INFO  2009-09-17 05:17:15,029 20096ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518071367: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:16,578 21645ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 5
+
+INFO  2009-09-17 05:17:16,633 21700ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 6
+
+INFO  2009-09-17 05:17:19,646 24713ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 7
+
+INFO  2009-09-17 05:17:20,048 25115ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518073764: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:20,165 25232ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 6
+
+INFO  2009-09-17 05:17:22,653 27720ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 8
+
+INFO  2009-09-17 05:17:23,752 28819ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 7
+
+INFO  2009-09-17 05:17:25,067 30134ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518076175: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:25,663 30730ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 9
+
+INFO  2009-09-17 05:17:27,342 32409ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 8
+
+INFO  2009-09-17 05:17:28,676 33743ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 10
+
+INFO  2009-09-17 05:17:30,186 35253ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518078533: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:30,928 35995ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 9
+
+INFO  2009-09-17 05:17:31,686 36753ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 11
+
+INFO  2009-09-17 05:17:34,515 39582ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 10
+
+INFO  2009-09-17 05:17:34,694 39761ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 12
+
+INFO  2009-09-17 05:17:35,196 40263ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518080999: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:37,704 42771ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 13
+
+INFO  2009-09-17 05:17:38,106 43173ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 11
+
+INFO  2009-09-17 05:17:40,219 45286ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518083315: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:40,718 45785ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 14
+
+INFO  2009-09-17 05:17:41,708 46775ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 12
+
+INFO  2009-09-17 05:17:43,728 48795ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 15
+
+INFO  2009-09-17 05:17:45,237 50304ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518085794: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:45,297 50364ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 13
+
+INFO  2009-09-17 05:17:46,741 51808ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 16
+
+INFO  2009-09-17 05:17:48,897 53964ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 14
+
+INFO  2009-09-17 05:17:49,747 54814ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 17
+
+INFO  2009-09-17 05:17:50,250 55317ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518088154: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:17:52,515 57582ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 15
+
+INFO  2009-09-17 05:17:53,088 58155ms SmppMessenger          onn_OnDeliverSmReq - VISAFONE:VISAFONE-CDMA-01 :New MO Message: Destination [20101] Source [2347025686099] Sequence Number [4512140] EsmClass [0] Body [Quiz help]
+
+INFO  2009-09-17 05:17:53,091 58158ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 18
+
+INFO  2009-09-17 05:18:00,884 65951ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518090665: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:00,886 65953ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518093184: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:03,189 68256ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 19
+
+INFO  2009-09-17 05:18:03,189 68256ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 16
+
+INFO  2009-09-17 05:18:05,604 70671ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518095655: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:06,632 71699ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 20
+
+INFO  2009-09-17 05:18:07,376 72443ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 17
+
+INFO  2009-09-17 05:18:09,976 75043ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 21
+
+INFO  2009-09-17 05:18:10,378 75445ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518098161: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:11,195 76262ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 18
+
+INFO  2009-09-17 05:18:13,007 78074ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 22
+
+INFO  2009-09-17 05:18:14,912 79979ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 19
+
+INFO  2009-09-17 05:18:15,420 80487ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518100655: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:16,074 81141ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 23
+
+INFO  2009-09-17 05:18:19,309 84376ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 24
+
+INFO  2009-09-17 05:18:19,743 84810ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 20
+
+INFO  2009-09-17 05:18:20,666 85733ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518103112: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:25,329 90396ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 25
+
+INFO  2009-09-17 05:18:26,760 91827ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518105687: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:26,764 91831ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 21
+
+INFO  2009-09-17 05:18:28,596 93663ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 26
+
+INFO  2009-09-17 05:18:30,628 95695ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518108110: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:30,629 95696ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 22
+
+INFO  2009-09-17 05:18:31,647 96714ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 27
+
+INFO  2009-09-17 05:18:34,793 99860ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 23
+
+INFO  2009-09-17 05:18:34,796 99863ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 28
+
+INFO  2009-09-17 05:18:37,285 102352ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518110648: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:38,202 103269ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 29
+
+INFO  2009-09-17 05:18:39,098 104165ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 24
+
+INFO  2009-09-17 05:18:40,637 105704ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518113166: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:41,625 106692ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 30
+
+INFO  2009-09-17 05:18:43,347 108414ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 25
+
+INFO  2009-09-17 05:18:45,202 110269ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 31
+
+INFO  2009-09-17 05:18:45,771 110838ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518115669: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:47,385 112452ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 26
+
+INFO  2009-09-17 05:18:48,267 113334ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 32
+
+INFO  2009-09-17 05:18:50,884 115951ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518118111: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:51,655 116722ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 27
+
+INFO  2009-09-17 05:18:51,657 116724ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 33
+
+INFO  2009-09-17 05:18:55,753 120820ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 28
+
+INFO  2009-09-17 05:18:55,767 120834ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518120622: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:18:55,779 120846ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 34
+
+INFO  2009-09-17 05:19:01,854 126921ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518123115: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:02,291 127358ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 35
+
+INFO  2009-09-17 05:19:02,445 127512ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 29
+
+INFO  2009-09-17 05:19:05,297 130364ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 36
+
+INFO  2009-09-17 05:19:05,897 130964ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518125699: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:06,419 131486ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 30
+
+INFO  2009-09-17 05:19:08,444 133511ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 37
+
+INFO  2009-09-17 05:19:10,388 135455ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 31
+
+INFO  2009-09-17 05:19:10,911 135978ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518128183: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:11,653 136720ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 38
+
+INFO  2009-09-17 05:19:14,770 139837ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 32
+
+INFO  2009-09-17 05:19:14,773 139840ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 39
+
+INFO  2009-09-17 05:19:16,052 141119ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518130685: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:18,048 143115ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 40
+
+INFO  2009-09-17 05:19:18,818 143885ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 33
+
+INFO  2009-09-17 05:19:21,133 146200ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518133160: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:21,491 146558ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 41
+
+INFO  2009-09-17 05:19:22,713 147780ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 34
+
+INFO  2009-09-17 05:19:24,612 149679ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 42
+
+INFO  2009-09-17 05:19:26,095 151162ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518135695: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:26,508 151575ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 35
+
+INFO  2009-09-17 05:19:27,619 152686ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 43
+
+INFO  2009-09-17 05:19:30,839 155906ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 36
+
+INFO  2009-09-17 05:19:30,839 155906ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518138103: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:40,690 165757ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 44
+
+INFO  2009-09-17 05:19:40,725 165792ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518140627: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:41,118 166185ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 518143125: connGuid d2895cc6-f0e8-4618-a07c-44a837e59535
+
+INFO  2009-09-17 05:19:41,545 166612ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 37
+
+INFO  2009-09-17 05:19:43,863 168930ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 45
+
+INFO  2009-09-17 05:19:45,445 170512ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 38
+

@@ -1,0 +1,15 @@
+INFO  2014-05-22 20:53:15,958 16272ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_OUT
+
+INFO  2014-05-22 20:53:15,960 16274ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_IN
+
+
+INFO  2014-05-22 20:53:15,996 16310ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2014-05-22 20:53:16,047 16361ms SmppMessenger          itializeParameters - VANSO:VANSO_01 Client Initialized Successfully
+
+INFO  2014-05-22 20:53:16,096 16410ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2014-05-22 20:53:16,350 16664ms SmppMessenger          Connect            - VANSO:VANSO_01 Tranceiver Client Connected Successfully
+
+INFO  2014-05-22 20:53:16,352 16666ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+

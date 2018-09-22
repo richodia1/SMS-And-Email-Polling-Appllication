@@ -1,0 +1,613 @@
+INFO  2011-12-07 10:51:33,879 730285ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-07 10:51:39,124 735531ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-07 10:51:39,133 735539ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-07 10:51:42,861 739267ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-07 10:54:15,974 52761ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-07 10:54:18,288 55074ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-07 10:54:18,322 55108ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-07 10:54:18,797 55584ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-07 10:54:18,799 55585ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-07 10:54:39,714 76500ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-07 10:54:43,786 80573ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-07 10:54:55,207 91993ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-07 10:55:03,860 100647ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-07 10:55:14,499 111286ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-07 10:57:10,408 83576ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-07 10:57:10,410 83578ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-07 10:57:10,412 83580ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-07 10:57:10,629 83797ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-07 10:57:14,485 87653ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-07 10:57:14,487 87655ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-07 10:57:17,931 91099ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-07 10:57:30,351 103519ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-07 11:01:42,911 45278ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-07 11:01:42,942 45308ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-07 11:01:42,937 45304ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-07 11:01:51,988 54354ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-07 11:02:10,351 72718ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-07 11:02:10,354 72720ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-07 11:02:15,080 77446ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-07 11:02:21,186 83553ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-07 11:02:26,320 88687ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-07 11:02:31,109 93476ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-07 11:02:35,681 98048ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-07 11:02:39,894 102261ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-07 11:02:51,610 113976ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-07 11:03:00,070 122437ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-07 11:03:12,133 134500ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-07 11:03:18,016 140383ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2011-12-07 11:03:18,018 140385ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-07 11:03:22,760 145127ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-07 11:03:26,902 149268ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-07 11:03:32,647 155014ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-07 11:03:35,768 158135ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-07 11:03:39,718 162085ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-07 11:03:45,679 168045ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+INFO  2011-12-07 11:03:50,218 172585ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 18
+
+INFO  2011-12-07 11:06:44,312 346679ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid 3d9dadfc-70ff-4970-bb31-cc159a595d38
+
+WARN  2011-12-07 11:06:45,564 347931ms SmppMessenger          ppconn_OnUnBindReq - SILVERSTREET:SILVERSTREET-BV_01: 9 Client disconnected : SequenceNumber [0] ConnGuid [3d9dadfc-70ff-4970-bb31-cc159a595d38] 
+
+ERROR 2011-12-07 11:06:45,565 347931ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2011-12-07 11:07:04,847 367214ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+INFO  2011-12-07 11:07:05,351 367718ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-07 11:07:22,720 385087ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-07 11:07:36,406 398773ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-07 11:07:40,766 403133ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-07 11:07:48,382 410749ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-07 11:08:06,277 428644ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-07 11:08:10,372 432739ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-07 11:08:19,147 441514ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-07 11:12:34,268 696634ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from SILVERSTREET:SILVERSTREET-BV_01: Sequence Number 1: connGuid acfcdcaf-7b12-4bb5-aae1-9aae41f50704
+
+WARN  2011-12-07 11:12:50,681 713048ms SmppMessenger          ppconn_OnUnBindReq - SILVERSTREET:SILVERSTREET-BV_01: 9 Client disconnected : SequenceNumber [0] ConnGuid [acfcdcaf-7b12-4bb5-aae1-9aae41f50704] 
+
+ERROR 2011-12-07 11:12:53,074 715441ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+ERROR 2011-12-07 11:12:55,074 717441ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01:  Exception of type 'Devshock.Protocol.Smpp.SmppTimeOutException' was thrown.
+
+INFO  2011-12-07 11:13:27,061 749428ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-07 11:13:29,639 752006ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-07 11:13:32,793 755160ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-07 11:13:36,096 758462ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-07 11:13:39,252 761619ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-07 11:13:47,343 769710ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-07 11:13:59,165 781531ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-07 11:14:02,277 784644ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-07 11:14:05,421 787788ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-07 11:14:08,551 790917ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-07 11:14:11,677 794044ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-07 11:14:14,802 797169ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-07 11:14:17,938 800305ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-07 11:14:21,063 803430ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-07 11:14:24,188 806555ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-07 11:14:27,300 809667ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-07 11:14:30,429 812795ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+INFO  2011-12-07 11:14:33,559 815926ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 18
+
+INFO  2011-12-07 11:14:36,677 819044ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 19
+
+INFO  2011-12-07 11:14:39,803 822170ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 20
+
+INFO  2011-12-07 11:14:42,927 825293ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 21
+
+INFO  2011-12-07 11:14:46,054 828420ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 22
+
+INFO  2011-12-07 11:14:49,189 831556ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 23
+
+INFO  2011-12-07 11:14:52,309 834676ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 24
+
+INFO  2011-12-07 11:14:55,474 837840ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 25
+
+INFO  2011-12-07 11:14:58,606 840973ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 26
+
+INFO  2011-12-07 11:15:01,736 844103ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 27
+
+INFO  2011-12-07 11:15:04,894 847261ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 28
+
+INFO  2011-12-07 11:15:08,021 850388ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 29
+
+INFO  2011-12-07 11:15:11,355 853722ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 30
+
+INFO  2011-12-07 11:15:14,517 856883ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 31
+
+INFO  2011-12-07 11:15:17,649 860015ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 32
+
+INFO  2011-12-07 11:15:20,797 863164ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 33
+
+INFO  2011-12-07 11:15:23,921 866288ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 34
+
+INFO  2011-12-07 11:15:27,042 869409ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 35
+
+INFO  2011-12-07 11:15:30,172 872539ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 36
+
+INFO  2011-12-07 11:15:33,300 875667ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 37
+
+INFO  2011-12-07 11:15:36,426 878793ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 38
+
+INFO  2011-12-07 11:15:39,549 881915ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 39
+
+INFO  2011-12-07 11:15:42,667 885033ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 40
+
+INFO  2011-12-07 11:15:45,801 888167ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 41
+
+INFO  2011-12-07 11:15:49,106 891473ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 42
+
+INFO  2011-12-07 11:15:52,234 894601ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 43
+
+INFO  2011-12-07 11:15:55,347 897714ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 44
+
+INFO  2011-12-07 11:15:58,482 900849ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 45
+
+INFO  2011-12-07 11:16:01,630 903996ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 46
+
+INFO  2011-12-07 11:16:04,759 907125ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 47
+
+INFO  2011-12-07 11:16:07,915 910282ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 48
+
+INFO  2011-12-07 11:16:11,037 913403ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 49
+
+INFO  2011-12-07 11:16:14,164 916530ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 50
+
+INFO  2011-12-07 11:16:17,283 919650ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 51
+
+INFO  2011-12-07 11:16:20,528 922895ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 52
+
+INFO  2011-12-07 11:16:23,679 926046ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 53
+
+INFO  2011-12-07 11:16:26,858 929224ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 54
+
+INFO  2011-12-07 11:16:29,978 932345ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 55
+
+INFO  2011-12-07 11:16:33,110 935476ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 56
+
+INFO  2011-12-07 11:16:36,239 938606ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 57
+
+INFO  2011-12-07 11:16:39,363 941730ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 58
+
+INFO  2011-12-07 11:16:42,477 944843ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 59
+
+INFO  2011-12-07 11:16:45,612 947979ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 60
+
+INFO  2011-12-07 11:16:48,812 951179ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 61
+
+INFO  2011-12-07 11:16:51,970 954337ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 62
+
+INFO  2011-12-07 11:16:55,135 957502ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 63
+
+INFO  2011-12-07 11:16:58,281 960647ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 64
+
+INFO  2011-12-07 11:17:01,414 963781ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 65
+
+INFO  2011-12-07 11:17:04,610 966976ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 66
+
+INFO  2011-12-07 11:17:07,817 970184ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 67
+
+INFO  2011-12-07 11:17:10,945 973312ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 68
+
+INFO  2011-12-07 11:17:14,073 976440ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 69
+
+INFO  2011-12-07 11:17:17,205 979571ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 70
+
+INFO  2011-12-07 11:17:20,341 982707ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 71
+
+INFO  2011-12-07 11:17:23,472 985838ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 72
+
+INFO  2011-12-07 11:17:26,597 988964ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 73
+
+INFO  2011-12-07 11:17:29,714 992081ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 74
+
+INFO  2011-12-07 11:17:32,839 995206ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 75
+
+INFO  2011-12-07 11:17:35,970 998337ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 76
+
+INFO  2011-12-07 11:17:39,093 1001460ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 77
+
+INFO  2011-12-07 11:17:42,216 1004583ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 78
+
+INFO  2011-12-07 11:17:45,341 1007707ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 79
+
+INFO  2011-12-07 11:17:49,087 1011453ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 80
+
+INFO  2011-12-07 11:17:52,215 1014581ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 81
+
+INFO  2011-12-07 11:17:55,333 1017699ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 82
+
+INFO  2011-12-07 11:17:58,473 1020840ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 83
+
+INFO  2011-12-07 11:18:01,598 1023965ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 84
+
+INFO  2011-12-07 11:18:04,769 1027136ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 85
+
+INFO  2011-12-07 11:18:07,885 1030252ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 86
+
+INFO  2011-12-07 11:18:11,039 1033406ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 87
+
+INFO  2011-12-07 11:18:14,168 1036535ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 88
+
+INFO  2011-12-07 11:18:17,292 1039659ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 89
+
+INFO  2011-12-07 11:18:20,422 1042789ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 90
+
+INFO  2011-12-07 11:18:23,537 1045904ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 91
+
+INFO  2011-12-07 11:18:26,772 1049138ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 92
+
+INFO  2011-12-07 11:18:29,886 1052253ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 93
+
+INFO  2011-12-07 11:23:09,387 275697ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2011-12-07 11:23:09,478 275788ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2011-12-07 11:23:09,552 275862ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2011-12-07 11:23:09,930 276239ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2011-12-07 11:23:10,205 276514ms SmppMessenger          Connect            - SILVERSTREET:SILVERSTREET-BV_01 Tranceiver Client Connected Successfully
+
+INFO  2011-12-07 11:23:10,206 276515ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2011-12-07 11:23:10,751 277060ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2011-12-07 11:23:13,327 279636ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 2
+
+INFO  2011-12-07 11:23:16,487 282796ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 3
+
+INFO  2011-12-07 11:23:19,616 285925ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 4
+
+INFO  2011-12-07 11:23:22,730 289039ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 5
+
+INFO  2011-12-07 11:23:25,857 292166ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 6
+
+INFO  2011-12-07 11:23:28,980 295289ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 7
+
+INFO  2011-12-07 11:23:32,115 298424ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 8
+
+INFO  2011-12-07 11:23:35,244 301553ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 9
+
+INFO  2011-12-07 11:23:38,374 304683ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 10
+
+INFO  2011-12-07 11:23:41,500 307809ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 11
+
+INFO  2011-12-07 11:23:44,628 310937ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 12
+
+INFO  2011-12-07 11:23:48,895 315204ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 13
+
+INFO  2011-12-07 11:23:52,048 318357ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 14
+
+INFO  2011-12-07 11:23:55,172 321481ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 15
+
+INFO  2011-12-07 11:23:58,311 324620ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 16
+
+INFO  2011-12-07 11:24:01,442 327751ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 17
+
+INFO  2011-12-07 11:24:04,561 330870ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 18
+
+INFO  2011-12-07 11:24:07,683 333992ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 19
+
+INFO  2011-12-07 11:24:10,813 337122ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 20
+
+INFO  2011-12-07 11:24:13,925 340234ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 21
+
+INFO  2011-12-07 11:24:17,055 343364ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 22
+
+INFO  2011-12-07 11:24:20,216 346526ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 23
+
+INFO  2011-12-07 11:24:23,335 349644ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 24
+
+INFO  2011-12-07 11:24:26,453 352762ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 25
+
+INFO  2011-12-07 11:24:29,598 355907ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 26
+
+INFO  2011-12-07 11:24:32,718 359027ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 27
+
+INFO  2011-12-07 11:24:35,840 362149ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 28
+
+INFO  2011-12-07 11:24:38,965 365274ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 29
+
+INFO  2011-12-07 11:24:42,090 368399ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 30
+
+INFO  2011-12-07 11:24:45,238 371547ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 31
+
+INFO  2011-12-07 11:24:48,817 375126ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 32
+
+INFO  2011-12-07 11:24:51,931 378240ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 33
+
+INFO  2011-12-07 11:24:55,053 381362ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 34
+
+INFO  2011-12-07 11:24:58,176 384485ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 35
+
+INFO  2011-12-07 11:25:01,299 387608ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 36
+
+INFO  2011-12-07 11:25:04,429 390738ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 37
+
+INFO  2011-12-07 11:25:07,588 393897ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 38
+
+INFO  2011-12-07 11:25:10,729 397038ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 39
+
+INFO  2011-12-07 11:25:13,901 400210ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 40
+
+INFO  2011-12-07 11:25:17,063 403372ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 41
+
+INFO  2011-12-07 11:25:20,265 406574ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 42
+
+INFO  2011-12-07 11:25:23,412 409721ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 43
+
+INFO  2011-12-07 11:25:26,529 412838ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 44
+
+INFO  2011-12-07 11:25:29,656 415965ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 45
+
+INFO  2011-12-07 11:25:32,780 419089ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 46
+
+INFO  2011-12-07 11:25:35,918 422227ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 47
+
+INFO  2011-12-07 11:25:39,042 425351ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 48
+
+INFO  2011-12-07 11:25:42,164 428473ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 49
+
+INFO  2011-12-07 11:25:45,299 431608ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 50
+
+INFO  2011-12-07 11:25:48,980 435289ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 51
+
+INFO  2011-12-07 11:25:52,099 438408ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 52
+
+INFO  2011-12-07 11:25:55,232 441542ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 53
+
+INFO  2011-12-07 11:25:58,358 444667ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 54
+
+INFO  2011-12-07 11:26:01,483 447792ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 55
+
+INFO  2011-12-07 11:26:04,608 450917ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 56
+
+INFO  2011-12-07 11:26:07,735 454044ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 57
+
+INFO  2011-12-07 11:26:10,850 457159ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 58
+
+INFO  2011-12-07 11:26:13,986 460295ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 59
+
+INFO  2011-12-07 11:26:17,109 463418ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 60
+
+INFO  2011-12-07 11:26:20,236 466545ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 61
+
+INFO  2011-12-07 11:26:23,388 469697ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 62
+
+INFO  2011-12-07 11:26:26,513 472822ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 63
+
+INFO  2011-12-07 11:26:29,637 475946ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 64
+
+INFO  2011-12-07 11:26:32,761 479070ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 65
+
+INFO  2011-12-07 11:26:35,891 482200ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 66
+
+INFO  2011-12-07 11:26:39,014 485323ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 67
+
+INFO  2011-12-07 11:26:42,137 488446ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 68
+
+INFO  2011-12-07 11:26:45,259 491568ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 69
+
+INFO  2011-12-07 11:26:49,265 495574ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 70
+
+INFO  2011-12-07 11:26:52,392 498701ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 71
+
+INFO  2011-12-07 11:26:55,514 501823ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 72
+
+INFO  2011-12-07 11:26:58,638 504947ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 73
+
+INFO  2011-12-07 11:27:01,765 508075ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 74
+
+INFO  2011-12-07 11:27:04,889 511198ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 75
+
+INFO  2011-12-07 11:27:08,015 514324ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 76
+
+INFO  2011-12-07 11:27:11,129 517438ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 77
+
+INFO  2011-12-07 11:27:14,262 520571ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 78
+
+INFO  2011-12-07 11:27:17,397 523706ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 79
+
+INFO  2011-12-07 11:27:20,518 526827ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 80
+
+INFO  2011-12-07 11:27:23,647 529956ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 81
+
+INFO  2011-12-07 11:27:26,774 533083ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 82
+
+INFO  2011-12-07 11:27:29,909 536218ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 83
+
+INFO  2011-12-07 11:27:33,035 539344ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 84
+
+INFO  2011-12-07 11:27:36,158 542467ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 85
+
+INFO  2011-12-07 11:27:39,299 545608ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 86
+
+INFO  2011-12-07 11:27:42,424 548733ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 87
+
+INFO  2011-12-07 11:27:45,557 551866ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 88
+
+INFO  2011-12-07 11:27:49,087 555396ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 89
+
+INFO  2011-12-07 11:27:52,244 558553ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 90
+
+INFO  2011-12-07 11:27:55,381 561690ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 91
+
+INFO  2011-12-07 11:27:58,515 564824ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 92
+
+INFO  2011-12-07 11:28:01,641 567950ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 93
+
+INFO  2011-12-07 11:28:04,794 571103ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 94
+
+INFO  2011-12-07 11:28:07,922 574231ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 95
+
+INFO  2011-12-07 11:28:11,052 577361ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 96
+
+INFO  2011-12-07 11:28:14,304 580613ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 97
+
+INFO  2011-12-07 11:28:17,451 583760ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 98
+
+INFO  2011-12-07 11:28:21,523 587832ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 99
+
+INFO  2011-12-07 11:28:24,671 590981ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 100
+
+INFO  2011-12-07 11:28:27,821 594130ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 101
+
+INFO  2011-12-07 11:28:30,946 597255ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 102
+
+INFO  2011-12-07 11:28:34,068 600377ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 103
+
+INFO  2011-12-07 11:28:37,197 603506ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 104
+
+INFO  2011-12-07 11:28:40,325 606634ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 105
+
+INFO  2011-12-07 11:28:43,450 609759ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 106
+
+INFO  2011-12-07 11:28:46,569 612878ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 107
+
+INFO  2011-12-07 11:28:49,709 616018ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 108
+
+INFO  2011-12-07 11:28:52,835 619144ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 109
+
+INFO  2011-12-07 11:28:55,947 622257ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 110
+
+INFO  2011-12-07 11:28:59,073 625382ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 111
+
+INFO  2011-12-07 11:29:02,185 628494ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 112
+
+INFO  2011-12-07 11:29:05,311 631620ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 113
+
+INFO  2011-12-07 11:29:08,435 634744ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 114
+
+INFO  2011-12-07 11:29:21,629 647938ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 115
+
+INFO  2011-12-07 11:29:24,764 651073ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 116
+
+INFO  2011-12-07 11:29:27,896 654206ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 117
+
+INFO  2011-12-07 11:29:31,039 657348ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 118
+
+INFO  2011-12-07 11:29:34,162 660471ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 119
+
+INFO  2011-12-07 11:29:37,286 663595ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 120
+
+INFO  2011-12-07 11:29:40,414 666723ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 121
+
+INFO  2011-12-07 11:29:43,534 669844ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 122
+
+INFO  2011-12-07 11:29:46,660 672969ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 123
+
+INFO  2011-12-07 11:29:49,812 676121ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 124
+
+INFO  2011-12-07 11:29:52,933 679242ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 125
+
+INFO  2011-12-07 11:29:56,060 682369ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 126
+
+INFO  2011-12-07 11:29:59,186 685495ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 127
+
+INFO  2011-12-07 11:30:02,308 688617ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 128
+
+INFO  2011-12-07 11:30:05,435 691744ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 129
+
+INFO  2011-12-07 11:30:08,548 694857ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 130
+
+INFO  2011-12-07 11:30:11,669 697978ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 131
+
+INFO  2011-12-07 11:30:14,796 701106ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 132
+
+INFO  2011-12-07 11:30:17,923 704232ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 133
+
+INFO  2011-12-07 11:30:21,051 707360ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 134
+
+INFO  2011-12-07 11:30:24,180 710489ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 135
+
+INFO  2011-12-07 11:30:27,309 713618ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 136
+
+INFO  2011-12-07 11:30:30,433 716743ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 137
+
+INFO  2011-12-07 11:30:33,565 719874ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 138
+
+INFO  2011-12-07 11:30:36,677 722986ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 139
+
+INFO  2011-12-07 11:30:39,810 726119ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 140
+
+INFO  2011-12-07 11:30:42,935 729244ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 141
+
+INFO  2011-12-07 11:30:46,063 732372ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 142
+
+INFO  2011-12-07 11:30:49,290 735599ms SmppMessenger          timerElapsedEvent  - SILVERSTREET:SILVERSTREET-BV_01: EnquireLink SequenceNumber: 143
+

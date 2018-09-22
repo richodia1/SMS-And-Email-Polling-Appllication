@@ -1,0 +1,133 @@
+INFO  2014-05-23 13:02:47,102 937866ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_IN
+
+
+INFO  2014-05-23 13:02:47,102 937866ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_OUT
+
+INFO  2014-05-23 13:02:47,108 937872ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2014-05-23 13:02:47,199 937963ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2014-05-23 13:02:47,272 938036ms SmppMessenger          itializeParameters - VANSO:VANSO_01 Client Initialized Successfully
+
+INFO  2014-05-23 13:02:47,654 938418ms SmppMessenger          Connect            - VANSO:VANSO_01 Tranceiver Client Connected Successfully
+
+INFO  2014-05-23 13:02:47,655 938419ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2014-05-23 13:02:50,798 941562ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 2
+
+INFO  2014-05-23 13:02:53,924 944689ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 3
+
+INFO  2014-05-23 13:02:57,043 947807ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 4
+
+INFO  2014-05-23 13:03:00,172 950936ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 5
+
+INFO  2014-05-23 13:03:03,312 954076ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 6
+
+INFO  2014-05-23 13:03:06,454 957218ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 7
+
+INFO  2014-05-23 13:04:24,142 74488ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_IN
+
+
+INFO  2014-05-23 13:04:24,201 74547ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_01_OUT
+
+INFO  2014-05-23 13:04:24,292 74638ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_01 Client Initialized Successfully
+
+INFO  2014-05-23 13:04:24,588 74934ms SmppMessenger          itializeParameters - VANSO:VANSO_01 Client Initialized Successfully
+
+INFO  2014-05-23 13:04:24,599 74945ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2014-05-23 13:04:24,599 74945ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_IN
+
+
+INFO  2014-05-23 13:04:24,629 74975ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2014-05-23 13:04:24,707 75053ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2014-05-23 13:04:24,878 75224ms SmppMessenger          Connect            - VANSO:VANSO_01 Tranceiver Client Connected Successfully
+
+INFO  2014-05-23 13:04:24,880 75226ms Program                SmppMessageHandler - Bind Count as at Stated Period : 2
+
+INFO  2014-05-23 13:04:28,001 78347ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 2
+
+ERROR 2014-05-23 13:04:28,632 78978ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2014-05-23 13:04:31,127 81473ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 3
+
+ERROR 2014-05-23 13:04:32,938 83284ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2014-05-23 13:04:34,248 84594ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 4
+
+ERROR 2014-05-23 13:04:37,207 87554ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_01->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2014-05-23 13:04:37,382 87729ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 5
+
+INFO  2014-05-23 13:05:20,340 40480ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_02_OUT
+
+INFO  2014-05-23 13:05:20,343 40483ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SILVERSTREET_SILVERSTREET-BV_02_IN
+
+
+INFO  2014-05-23 13:05:20,381 40521ms SmppMessenger          itializeParameters - SILVERSTREET:SILVERSTREET-BV_02 Client Initialized Successfully
+
+INFO  2014-05-23 13:05:20,698 40838ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2014-05-23 13:05:20,881 41021ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_IN
+
+
+INFO  2014-05-23 13:05:20,882 41022ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2014-05-23 13:05:20,887 41027ms SmppMessenger          itializeParameters - VANSO:VANSO_01 Client Initialized Successfully
+
+INFO  2014-05-23 13:05:20,888 41028ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_OUT
+
+INFO  2014-05-23 13:05:20,995 41135ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2014-05-23 13:05:21,152 41292ms SmppMessenger          Connect            - VANSO:VANSO_01 Tranceiver Client Connected Successfully
+
+INFO  2014-05-23 13:05:21,153 41293ms Program                SmppMessageHandler - Bind Count as at Stated Period : 2
+
+INFO  2014-05-23 13:05:24,283 44423ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 2
+
+ERROR 2014-05-23 13:05:24,701 44841ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_02->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2014-05-23 13:05:27,399 47539ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 3
+
+ERROR 2014-05-23 13:05:28,975 49115ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_02->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2014-05-23 13:05:30,517 50657ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 4
+
+ERROR 2014-05-23 13:05:33,250 53390ms Program                SmppMessageHandler - SILVERSTREET:SILVERSTREET-BV_02->Tranceiver ConnectionStatus: Disconnected
+
+INFO  2014-05-23 13:05:33,653 53793ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 5
+
+INFO  2014-05-23 13:07:37,498 120931ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_IN
+
+
+INFO  2014-05-23 13:07:37,498 120931ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_OUT
+
+INFO  2014-05-23 13:07:37,507 120940ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2014-05-23 13:07:37,574 121007ms SmppMessenger          itializeParameters - VANSO:VANSO_01 Client Initialized Successfully
+
+INFO  2014-05-23 13:07:37,614 121047ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2014-05-23 13:07:37,864 121297ms SmppMessenger          Connect            - VANSO:VANSO_01 Tranceiver Client Connected Successfully
+
+INFO  2014-05-23 13:07:37,865 121298ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2014-05-23 13:07:40,990 124424ms SmppMessenger          timerElapsedEvent  - VANSO:VANSO_01: EnquireLink SequenceNumber: 2
+
+INFO  2014-05-23 13:10:12,783 148613ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2014-05-23 13:10:12,787 148617ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_IN
+
+
+INFO  2014-05-23 13:10:12,783 148613ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VANSO_VANSO_01_OUT
+
+INFO  2014-05-23 13:10:12,834 148664ms SmppMessenger          itializeParameters - VANSO:VANSO_01 Client Initialized Successfully
+
+INFO  2014-05-23 13:10:12,857 148687ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+
+INFO  2014-05-23 13:10:13,131 148961ms SmppMessenger          Connect            - VANSO:VANSO_01 Tranceiver Client Connected Successfully
+
+INFO  2014-05-23 13:10:13,132 148962ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+

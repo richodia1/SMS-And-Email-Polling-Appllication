@@ -1,0 +1,1292 @@
+INFO  2009-08-07 12:35:40,371 1292036551ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_IN
+
+INFO  2009-08-07 12:35:40,401 1292036581ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_OUT
+
+INFO  2009-08-07 12:35:40,849 1292037029ms SmppMessenger          itializeParameters - SMSJ:SMSJUNCTION02 Client Initialized Successfully
+
+INFO  2009-08-07 12:35:41,325 1292037505ms SmppMessenger          itializeParameters - VISAFONE:VISAFONE-CDMA-01 Client Initialized Successfully
+
+INFO  2009-08-07 12:35:41,350 1292037530ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_IN
+
+INFO  2009-08-07 12:35:41,360 1292037540ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_OUT
+
+INFO  2009-08-07 12:35:41,587 1292037767ms SmppMessenger          Connect            - VISAFONE:VISAFONE-CDMA-01 Tranceiver Client Connected Successfully
+
+INFO  2009-08-07 12:35:41,618 1292037798ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2009-08-07 12:35:42,252 1292038432ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+WARN  2009-08-07 12:35:42,284 1292038464ms Program                HttpReciverHandler - Http IP Host Address: 192.168.57.1
+
+INFO  2009-08-07 12:35:42,291 1292038471ms Program                CreateHttpListener - url=http://192.168.57.1:5021/
+
+INFO  2009-08-07 12:35:42,314 1292038494ms Program                CreateHttpListener - Waiting for HTTP request to be processed asyncronously.
+INFO  2009-08-07 12:35:42,318 1292038498ms SmppMessenger          Connect            - SMSJ:SMSJUNCTION02 Tranceiver Client Connected Successfully
+
+INFO  2009-08-07 12:35:42,318 1292038498ms Program                SmppMessageHandler - Bind Count as at Stated Period : 2
+
+INFO  2009-08-07 12:35:43,194 1292039374ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
+INFO  2009-08-07 12:35:44,611 1292040791ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 2
+
+INFO  2009-08-07 12:35:45,164 1292041344ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533007551: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:35:45,925 1292042105ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 2
+
+INFO  2009-08-07 12:35:47,713 1292043893ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 3
+
+INFO  2009-08-07 12:35:49,618 1292045798ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 3
+
+INFO  2009-08-07 12:35:50,172 1292046352ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533010141: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:35:50,723 1292046903ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 4
+
+INFO  2009-08-07 12:35:53,222 1292049402ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 4
+
+INFO  2009-08-07 12:35:53,734 1292049914ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 5
+
+INFO  2009-08-07 12:35:55,351 1292051531ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533012792: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:35:56,751 1292052931ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 6
+
+INFO  2009-08-07 12:35:56,882 1292053062ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 5
+
+INFO  2009-08-07 12:35:59,778 1292055958ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 7
+
+INFO  2009-08-07 12:36:00,260 1292056440ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533015324: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:00,474 1292056654ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 6
+
+INFO  2009-08-07 12:36:02,796 1292058976ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 8
+
+INFO  2009-08-07 12:36:04,156 1292060336ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 7
+
+INFO  2009-08-07 12:36:05,244 1292061424ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533017934: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:05,806 1292061986ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 9
+
+INFO  2009-08-07 12:36:07,753 1292063933ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 8
+
+INFO  2009-08-07 12:36:08,816 1292064996ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 10
+
+INFO  2009-08-07 12:36:10,398 1292066578ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533020543: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:11,340 1292067520ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 9
+
+INFO  2009-08-07 12:36:11,833 1292068013ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 11
+
+INFO  2009-08-07 12:36:14,839 1292071019ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 12
+
+INFO  2009-08-07 12:36:15,005 1292071185ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 10
+
+INFO  2009-08-07 12:36:15,414 1292071594ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533023137: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:17,852 1292074032ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 13
+
+INFO  2009-08-07 12:36:19,515 1292075695ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 11
+
+INFO  2009-08-07 12:36:20,432 1292076612ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533025788: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:20,859 1292077039ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 14
+
+INFO  2009-08-07 12:36:23,196 1292079376ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 12
+
+INFO  2009-08-07 12:36:23,871 1292080051ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 15
+
+INFO  2009-08-07 12:36:25,449 1292081629ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533028378: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:26,883 1292083063ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 13
+
+INFO  2009-08-07 12:36:26,903 1292083083ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 16
+
+INFO  2009-08-07 12:36:29,921 1292086101ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 17
+
+INFO  2009-08-07 12:36:30,467 1292086647ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533030894: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:30,469 1292086649ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 14
+
+INFO  2009-08-07 12:36:32,954 1292089134ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 18
+
+INFO  2009-08-07 12:36:34,153 1292090333ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 15
+
+INFO  2009-08-07 12:36:35,484 1292091664ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533033388: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:35,962 1292092142ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 19
+
+INFO  2009-08-07 12:36:37,739 1292093919ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 16
+
+INFO  2009-08-07 12:36:38,969 1292095149ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 20
+
+INFO  2009-08-07 12:36:40,513 1292096693ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533035812: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:41,335 1292097515ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 17
+
+INFO  2009-08-07 12:36:41,981 1292098161ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 21
+
+INFO  2009-08-07 12:36:44,991 1292101171ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 18
+
+INFO  2009-08-07 12:36:44,993 1292101173ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 22
+
+INFO  2009-08-07 12:36:45,518 1292101698ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533038371: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:48,005 1292104185ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 23
+
+INFO  2009-08-07 12:36:48,648 1292104828ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 19
+
+INFO  2009-08-07 12:36:50,536 1292106716ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533040824: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:51,015 1292107195ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 24
+
+INFO  2009-08-07 12:36:52,277 1292108457ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 20
+
+INFO  2009-08-07 12:36:54,055 1292110235ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 25
+
+INFO  2009-08-07 12:36:55,655 1292111835ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533043376: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:36:55,875 1292112055ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 21
+
+INFO  2009-08-07 12:36:57,071 1292113251ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 26
+
+INFO  2009-08-07 12:36:59,547 1292115727ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 22
+
+INFO  2009-08-07 12:37:00,091 1292116271ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 27
+
+INFO  2009-08-07 12:37:00,611 1292116791ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533045823: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:03,105 1292119285ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 28
+
+INFO  2009-08-07 12:37:03,222 1292119402ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 23
+
+INFO  2009-08-07 12:37:05,690 1292121870ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533048305: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:06,113 1292122293ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 29
+
+INFO  2009-08-07 12:37:06,918 1292123098ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 24
+
+INFO  2009-08-07 12:37:09,140 1292125320ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 30
+
+INFO  2009-08-07 12:37:10,604 1292126784ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 25
+
+INFO  2009-08-07 12:37:10,671 1292126851ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533050835: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:12,150 1292128330ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 31
+
+INFO  2009-08-07 12:37:14,291 1292130471ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 26
+
+INFO  2009-08-07 12:37:15,187 1292131367ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 32
+
+INFO  2009-08-07 12:37:15,691 1292131871ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533053469: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:17,978 1292134158ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 27
+
+INFO  2009-08-07 12:37:18,202 1292134382ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 33
+
+INFO  2009-08-07 12:37:20,742 1292136922ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533056049: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:21,214 1292137394ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 34
+
+INFO  2009-08-07 12:37:21,664 1292137844ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 28
+
+INFO  2009-08-07 12:37:24,226 1292140406ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 35
+
+INFO  2009-08-07 12:37:25,350 1292141530ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 29
+
+INFO  2009-08-07 12:37:25,759 1292141939ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533058607: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:27,235 1292143415ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 36
+
+INFO  2009-08-07 12:37:29,035 1292145215ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 30
+
+INFO  2009-08-07 12:37:30,251 1292146431ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 37
+
+INFO  2009-08-07 12:37:30,759 1292146939ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533061201: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:32,657 1292148837ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 31
+
+INFO  2009-08-07 12:37:33,272 1292149452ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 38
+
+INFO  2009-08-07 12:37:35,898 1292152078ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533063869: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:36,279 1292152459ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 32
+
+INFO  2009-08-07 12:37:36,282 1292152462ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 39
+
+INFO  2009-08-07 12:37:39,307 1292155487ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 40
+
+INFO  2009-08-07 12:37:39,889 1292156069ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 33
+
+INFO  2009-08-07 12:37:40,896 1292157076ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533066443: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:42,321 1292158501ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 41
+
+INFO  2009-08-07 12:37:43,582 1292159762ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 34
+
+INFO  2009-08-07 12:37:45,328 1292161508ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 42
+
+INFO  2009-08-07 12:37:45,932 1292162112ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533069067: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:47,184 1292163364ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 35
+
+INFO  2009-08-07 12:37:48,341 1292164521ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 43
+
+INFO  2009-08-07 12:37:50,845 1292167025ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 36
+
+INFO  2009-08-07 12:37:50,854 1292167034ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533071607: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:51,352 1292167532ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 44
+
+INFO  2009-08-07 12:37:54,365 1292170545ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 45
+
+INFO  2009-08-07 12:37:54,536 1292170716ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 37
+
+INFO  2009-08-07 12:37:55,965 1292172145ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533074257: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:37:57,371 1292173551ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 46
+
+INFO  2009-08-07 12:37:58,217 1292174397ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 38
+
+INFO  2009-08-07 12:38:00,384 1292176564ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 47
+
+INFO  2009-08-07 12:38:00,982 1292177162ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533076817: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:01,908 1292178088ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 39
+
+INFO  2009-08-07 12:38:03,919 1292180099ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 48
+
+INFO  2009-08-07 12:38:05,595 1292181775ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 40
+
+INFO  2009-08-07 12:38:06,000 1292182180ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533079442: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:06,950 1292183130ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 49
+
+INFO  2009-08-07 12:38:09,267 1292185447ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 41
+
+INFO  2009-08-07 12:38:09,961 1292186141ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 50
+
+INFO  2009-08-07 12:38:11,109 1292187289ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533082093: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:12,971 1292189151ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 51
+
+INFO  2009-08-07 12:38:12,989 1292189169ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 42
+
+INFO  2009-08-07 12:38:15,986 1292192166ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533084648: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:15,990 1292192170ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 52
+
+INFO  2009-08-07 12:38:16,654 1292192834ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 43
+
+INFO  2009-08-07 12:38:19,009 1292195189ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 53
+
+INFO  2009-08-07 12:38:20,335 1292196515ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 44
+
+INFO  2009-08-07 12:38:21,051 1292197231ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533087244: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:22,017 1292198197ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 54
+
+INFO  2009-08-07 12:38:24,021 1292200201ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 45
+
+INFO  2009-08-07 12:38:25,040 1292201220ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 55
+
+INFO  2009-08-07 12:38:26,046 1292202226ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533089846: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:27,727 1292203907ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 46
+
+INFO  2009-08-07 12:38:28,059 1292204239ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 56
+
+INFO  2009-08-07 12:38:31,067 1292207247ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533092402: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:31,070 1292207250ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 57
+
+INFO  2009-08-07 12:38:31,426 1292207606ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 47
+
+INFO  2009-08-07 12:38:34,103 1292210283ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 58
+
+INFO  2009-08-07 12:38:35,080 1292211260ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 48
+
+INFO  2009-08-07 12:38:36,206 1292212386ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533095063: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:37,120 1292213300ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 59
+
+INFO  2009-08-07 12:38:38,677 1292214857ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 49
+
+INFO  2009-08-07 12:38:40,131 1292216311ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 60
+
+INFO  2009-08-07 12:38:41,223 1292217403ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533097658: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:42,268 1292218448ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 50
+
+INFO  2009-08-07 12:38:43,139 1292219319ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 61
+
+INFO  2009-08-07 12:38:45,933 1292222113ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 51
+
+INFO  2009-08-07 12:38:46,148 1292222328ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533100284: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:46,157 1292222337ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 62
+
+INFO  2009-08-07 12:38:49,176 1292225356ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 63
+
+INFO  2009-08-07 12:38:49,563 1292225743ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 52
+
+INFO  2009-08-07 12:38:51,258 1292227438ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533102857: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:52,189 1292228369ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 64
+
+INFO  2009-08-07 12:38:53,203 1292229383ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 53
+
+INFO  2009-08-07 12:38:55,251 1292231431ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 65
+
+INFO  2009-08-07 12:38:56,209 1292232389ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533105418: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:38:56,889 1292233069ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 54
+
+INFO  2009-08-07 12:38:58,269 1292234449ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 66
+
+INFO  2009-08-07 12:39:00,488 1292236668ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 55
+
+INFO  2009-08-07 12:39:01,282 1292237462ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533108020: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:01,285 1292237465ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 67
+
+INFO  2009-08-07 12:39:04,160 1292240340ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 56
+
+INFO  2009-08-07 12:39:04,293 1292240473ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 68
+
+INFO  2009-08-07 12:39:06,414 1292242594ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533110623: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:07,301 1292243481ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 69
+
+INFO  2009-08-07 12:39:07,847 1292244027ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 57
+
+INFO  2009-08-07 12:39:10,315 1292246495ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 70
+
+INFO  2009-08-07 12:39:11,320 1292247500ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533113299: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:11,533 1292247713ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 58
+
+INFO  2009-08-07 12:39:13,327 1292249507ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 71
+
+INFO  2009-08-07 12:39:15,120 1292251300ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 59
+
+INFO  2009-08-07 12:39:16,332 1292252512ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533115833: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:16,335 1292252515ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 72
+
+INFO  2009-08-07 12:39:18,791 1292254971ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 60
+
+INFO  2009-08-07 12:39:19,411 1292255591ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 73
+
+INFO  2009-08-07 12:39:21,463 1292257643ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533118415: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:22,421 1292258601ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 61
+
+INFO  2009-08-07 12:39:22,423 1292258603ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 74
+
+INFO  2009-08-07 12:39:25,457 1292261637ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 75
+
+INFO  2009-08-07 12:39:26,076 1292262256ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 62
+
+INFO  2009-08-07 12:39:26,481 1292262661ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533121072: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:28,470 1292264650ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 76
+
+INFO  2009-08-07 12:39:29,758 1292265938ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 63
+
+INFO  2009-08-07 12:39:31,483 1292267663ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533123695: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:31,486 1292267666ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 77
+
+INFO  2009-08-07 12:39:33,400 1292269580ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 64
+
+INFO  2009-08-07 12:39:34,502 1292270682ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 78
+
+INFO  2009-08-07 12:39:36,550 1292272730ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533126266: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:37,027 1292273207ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 65
+
+INFO  2009-08-07 12:39:37,524 1292273704ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 79
+
+INFO  2009-08-07 12:39:40,545 1292276725ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 80
+
+INFO  2009-08-07 12:39:40,713 1292276893ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 66
+
+INFO  2009-08-07 12:39:41,552 1292277732ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533128843: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:43,591 1292279771ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 81
+
+INFO  2009-08-07 12:39:44,399 1292280579ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 67
+
+INFO  2009-08-07 12:39:46,608 1292282788ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533131485: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:46,859 1292283039ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 82
+
+INFO  2009-08-07 12:39:48,046 1292284226ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 68
+
+INFO  2009-08-07 12:39:49,871 1292286051ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 83
+
+INFO  2009-08-07 12:39:51,580 1292287760ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533134000: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:51,675 1292287855ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 69
+
+INFO  2009-08-07 12:39:52,890 1292289070ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 84
+
+INFO  2009-08-07 12:39:55,356 1292291536ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 70
+
+INFO  2009-08-07 12:39:55,943 1292292123ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 85
+
+INFO  2009-08-07 12:39:56,690 1292292870ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533136668: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:39:59,020 1292295200ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 71
+
+INFO  2009-08-07 12:39:59,046 1292295226ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 86
+
+INFO  2009-08-07 12:40:01,708 1292297888ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533139270: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:02,073 1292298253ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 87
+
+INFO  2009-08-07 12:40:02,640 1292298820ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 72
+
+INFO  2009-08-07 12:40:05,103 1292301283ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 88
+
+INFO  2009-08-07 12:40:06,313 1292302493ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 73
+
+INFO  2009-08-07 12:40:06,721 1292302901ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533141865: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:08,126 1292304306ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 89
+
+INFO  2009-08-07 12:40:09,999 1292306179ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 74
+
+INFO  2009-08-07 12:40:11,155 1292307335ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 90
+
+INFO  2009-08-07 12:40:11,726 1292307906ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533144434: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:13,686 1292309866ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 75
+
+INFO  2009-08-07 12:40:14,178 1292310358ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 91
+
+INFO  2009-08-07 12:40:16,701 1292312881ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533147084: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:17,270 1292313450ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 92
+
+INFO  2009-08-07 12:40:17,282 1292313462ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 76
+
+INFO  2009-08-07 12:40:20,680 1292316860ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 93
+
+INFO  2009-08-07 12:40:20,877 1292317057ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 77
+
+INFO  2009-08-07 12:40:21,876 1292318056ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533149639: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:23,693 1292319873ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 94
+
+INFO  2009-08-07 12:40:24,529 1292320709ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 78
+
+INFO  2009-08-07 12:40:26,706 1292322886ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 95
+
+INFO  2009-08-07 12:40:26,908 1292323088ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533152251: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:29,145 1292325325ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 79
+
+INFO  2009-08-07 12:40:29,712 1292325892ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 96
+
+INFO  2009-08-07 12:40:31,914 1292328094ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533154801: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:32,735 1292328915ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 97
+
+INFO  2009-08-07 12:40:32,740 1292328920ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 80
+
+INFO  2009-08-07 12:40:35,749 1292331929ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 98
+
+INFO  2009-08-07 12:40:36,399 1292332579ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 81
+
+INFO  2009-08-07 12:40:36,937 1292333117ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533157417: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:38,761 1292334941ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 99
+
+INFO  2009-08-07 12:40:40,102 1292336282ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 82
+
+INFO  2009-08-07 12:40:41,792 1292337972ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 100
+
+INFO  2009-08-07 12:40:42,012 1292338192ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533160071: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:43,696 1292339876ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 83
+
+INFO  2009-08-07 12:40:44,816 1292340996ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 101
+
+INFO  2009-08-07 12:40:46,965 1292343145ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533162601: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:47,373 1292343553ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 84
+
+INFO  2009-08-07 12:40:47,824 1292344004ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 102
+
+INFO  2009-08-07 12:40:50,837 1292347017ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 103
+
+INFO  2009-08-07 12:40:51,038 1292347218ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 85
+
+INFO  2009-08-07 12:40:51,976 1292348156ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533165230: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:53,863 1292350043ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 104
+
+INFO  2009-08-07 12:40:54,643 1292350823ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 86
+
+INFO  2009-08-07 12:40:56,890 1292353070ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 105
+
+INFO  2009-08-07 12:40:57,101 1292353281ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533167879: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:40:58,331 1292354511ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 87
+
+INFO  2009-08-07 12:40:59,900 1292356080ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 106
+
+INFO  2009-08-07 12:41:01,924 1292358104ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 88
+
+INFO  2009-08-07 12:41:02,044 1292358224ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533170487: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:02,910 1292359090ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 107
+
+INFO  2009-08-07 12:41:05,598 1292361778ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 89
+
+INFO  2009-08-07 12:41:05,918 1292362098ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 108
+
+INFO  2009-08-07 12:41:07,133 1292363313ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533173031: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:08,979 1292365159ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 109
+
+INFO  2009-08-07 12:41:09,196 1292365376ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 90
+
+INFO  2009-08-07 12:41:11,988 1292368168ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 110
+
+INFO  2009-08-07 12:41:12,192 1292368372ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533175669: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:12,781 1292368961ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 91
+
+INFO  2009-08-07 12:41:14,997 1292371177ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 111
+
+INFO  2009-08-07 12:41:16,451 1292372631ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 92
+
+INFO  2009-08-07 12:41:17,168 1292373348ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533178263: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:18,011 1292374191ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 112
+
+INFO  2009-08-07 12:41:20,040 1292376220ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 93
+
+INFO  2009-08-07 12:41:21,020 1292377200ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 113
+
+INFO  2009-08-07 12:41:22,186 1292378366ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533180890: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:23,721 1292379901ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 94
+
+INFO  2009-08-07 12:41:24,028 1292380208ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 114
+
+INFO  2009-08-07 12:41:27,045 1292383225ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 115
+
+INFO  2009-08-07 12:41:27,241 1292383421ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533183403: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:27,352 1292383532ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 95
+
+INFO  2009-08-07 12:41:30,074 1292386254ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 116
+
+INFO  2009-08-07 12:41:30,992 1292387172ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 96
+
+INFO  2009-08-07 12:41:32,200 1292388380ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533186089: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:33,950 1292390130ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 117
+
+INFO  2009-08-07 12:41:34,590 1292390770ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 97
+
+INFO  2009-08-07 12:41:36,963 1292393143ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 118
+
+INFO  2009-08-07 12:41:38,261 1292394441ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 98
+
+INFO  2009-08-07 12:41:38,671 1292394851ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533188633: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:39,988 1292396168ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 119
+
+INFO  2009-08-07 12:41:41,947 1292398127ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 99
+
+INFO  2009-08-07 12:41:42,262 1292398442ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533191211: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:43,002 1292399182ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 120
+
+INFO  2009-08-07 12:41:45,633 1292401813ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 100
+
+INFO  2009-08-07 12:41:46,032 1292402212ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 121
+
+INFO  2009-08-07 12:41:47,272 1292403452ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533193841: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:49,051 1292405231ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 122
+
+INFO  2009-08-07 12:41:49,250 1292405430ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 101
+
+INFO  2009-08-07 12:41:52,061 1292408241ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 123
+
+INFO  2009-08-07 12:41:52,262 1292408442ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533196478: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:52,904 1292409084ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 102
+
+INFO  2009-08-07 12:41:55,075 1292411255ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 124
+
+INFO  2009-08-07 12:41:56,590 1292412770ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 103
+
+INFO  2009-08-07 12:41:57,307 1292413487ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533199095: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:41:58,085 1292414265ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 125
+
+INFO  2009-08-07 12:42:00,276 1292416456ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 104
+
+INFO  2009-08-07 12:42:01,098 1292417278ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 126
+
+INFO  2009-08-07 12:42:02,325 1292418505ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533201646: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:03,964 1292420144ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 105
+
+INFO  2009-08-07 12:42:04,104 1292420284ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 127
+
+INFO  2009-08-07 12:42:07,116 1292423296ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 128
+
+INFO  2009-08-07 12:42:07,317 1292423497ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533204279: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:07,581 1292423761ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 106
+
+INFO  2009-08-07 12:42:10,232 1292426412ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 129
+
+INFO  2009-08-07 12:42:12,461 1292428641ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533206846: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:12,466 1292428646ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 107
+
+INFO  2009-08-07 12:42:13,587 1292429767ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 130
+
+INFO  2009-08-07 12:42:16,053 1292432233ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 108
+
+INFO  2009-08-07 12:42:16,601 1292432781ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 131
+
+INFO  2009-08-07 12:42:17,479 1292433659ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533209400: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:19,619 1292435799ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 132
+
+INFO  2009-08-07 12:42:19,639 1292435819ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 109
+
+INFO  2009-08-07 12:42:22,495 1292438675ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533212007: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:22,668 1292438848ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 133
+
+INFO  2009-08-07 12:42:23,316 1292439496ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 110
+
+INFO  2009-08-07 12:42:25,692 1292441872ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 134
+
+INFO  2009-08-07 12:42:26,913 1292443093ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 111
+
+INFO  2009-08-07 12:42:27,545 1292443725ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533214608: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:28,710 1292444890ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 135
+
+INFO  2009-08-07 12:42:30,579 1292446759ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 112
+
+INFO  2009-08-07 12:42:31,730 1292447910ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 136
+
+INFO  2009-08-07 12:42:32,534 1292448714ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533217280: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:34,162 1292450342ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 113
+
+INFO  2009-08-07 12:42:34,762 1292450942ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 137
+
+INFO  2009-08-07 12:42:37,650 1292453830ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533219843: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:37,763 1292453943ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 114
+
+INFO  2009-08-07 12:42:37,949 1292454129ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 138
+
+INFO  2009-08-07 12:42:41,024 1292457204ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 139
+
+INFO  2009-08-07 12:42:41,434 1292457614ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 115
+
+INFO  2009-08-07 12:42:42,545 1292458725ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533222471: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:44,068 1292460248ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 140
+
+INFO  2009-08-07 12:42:45,028 1292461208ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 116
+
+INFO  2009-08-07 12:42:47,080 1292463260ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 141
+
+INFO  2009-08-07 12:42:47,684 1292463864ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533225054: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:48,708 1292464888ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 117
+
+INFO  2009-08-07 12:42:50,095 1292466275ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 142
+
+INFO  2009-08-07 12:42:52,324 1292468504ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 118
+
+INFO  2009-08-07 12:42:52,608 1292468788ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533227623: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:53,119 1292469299ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 143
+
+INFO  2009-08-07 12:42:55,924 1292472104ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 119
+
+INFO  2009-08-07 12:42:56,127 1292472307ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 144
+
+INFO  2009-08-07 12:42:57,682 1292473862ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533230232: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:42:59,137 1292475317ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 145
+
+INFO  2009-08-07 12:42:59,524 1292475704ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 120
+
+INFO  2009-08-07 12:43:02,146 1292478326ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 146
+
+INFO  2009-08-07 12:43:02,649 1292478829ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533232821: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:03,123 1292479303ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 121
+
+INFO  2009-08-07 12:43:05,161 1292481341ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 147
+
+INFO  2009-08-07 12:43:06,745 1292482925ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 122
+
+INFO  2009-08-07 12:43:07,674 1292483854ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533235462: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:08,168 1292484348ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 148
+
+INFO  2009-08-07 12:43:10,337 1292486517ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 123
+
+INFO  2009-08-07 12:43:11,188 1292487368ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 149
+
+INFO  2009-08-07 12:43:12,727 1292488907ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533238067: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:13,999 1292490179ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 124
+
+INFO  2009-08-07 12:43:14,207 1292490387ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 150
+
+INFO  2009-08-07 12:43:17,225 1292493405ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 151
+
+INFO  2009-08-07 12:43:17,648 1292493828ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 125
+
+INFO  2009-08-07 12:43:17,745 1292493925ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533240646: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:20,258 1292496438ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 152
+
+INFO  2009-08-07 12:43:21,270 1292497450ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 126
+
+INFO  2009-08-07 12:43:22,758 1292498938ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533243254: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:23,269 1292499449ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 153
+
+INFO  2009-08-07 12:43:24,860 1292501040ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 127
+
+INFO  2009-08-07 12:43:26,288 1292502468ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 154
+
+INFO  2009-08-07 12:43:27,822 1292504002ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533245880: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:28,459 1292504639ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 128
+
+INFO  2009-08-07 12:43:29,308 1292505488ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 155
+
+INFO  2009-08-07 12:43:32,053 1292508233ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 129
+
+INFO  2009-08-07 12:43:32,320 1292508500ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 156
+
+INFO  2009-08-07 12:43:32,839 1292509019ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533248461: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:35,327 1292511507ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 157
+
+INFO  2009-08-07 12:43:35,709 1292511889ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 130
+
+INFO  2009-08-07 12:43:37,857 1292514037ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533251023: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:38,339 1292514519ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 158
+
+INFO  2009-08-07 12:43:39,372 1292515552ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 131
+
+INFO  2009-08-07 12:43:41,444 1292517624ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 159
+
+INFO  2009-08-07 12:43:43,019 1292519199ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533253608: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:43,033 1292519213ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 132
+
+INFO  2009-08-07 12:43:44,455 1292520635ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 160
+
+INFO  2009-08-07 12:43:46,618 1292522798ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 133
+
+INFO  2009-08-07 12:43:47,463 1292523643ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 161
+
+INFO  2009-08-07 12:43:47,993 1292524173ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533256273: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:50,209 1292526389ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 134
+
+INFO  2009-08-07 12:43:50,556 1292526736ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 162
+
+INFO  2009-08-07 12:43:53,012 1292529192ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533258838: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:53,594 1292529774ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 163
+
+INFO  2009-08-07 12:43:53,797 1292529977ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 135
+
+INFO  2009-08-07 12:43:56,603 1292532783ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 164
+
+INFO  2009-08-07 12:43:57,414 1292533594ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 136
+
+INFO  2009-08-07 12:43:58,028 1292534208ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533261475: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:43:59,621 1292535801ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 165
+
+INFO  2009-08-07 12:44:01,028 1292537208ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 137
+
+INFO  2009-08-07 12:44:02,631 1292538811ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 166
+
+INFO  2009-08-07 12:44:03,033 1292539213ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533263934: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:04,684 1292540864ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 138
+
+INFO  2009-08-07 12:44:05,647 1292541827ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 167
+
+INFO  2009-08-07 12:44:08,060 1292544240ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533266416: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:08,290 1292544470ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 139
+
+INFO  2009-08-07 12:44:08,662 1292544842ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 168
+
+INFO  2009-08-07 12:44:11,681 1292547861ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 169
+
+INFO  2009-08-07 12:44:12,036 1292548216ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 140
+
+INFO  2009-08-07 12:44:13,128 1292549308ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533268969: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:14,701 1292550881ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 170
+
+INFO  2009-08-07 12:44:15,619 1292551799ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 141
+
+INFO  2009-08-07 12:44:17,725 1292553905ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 171
+
+INFO  2009-08-07 12:44:18,135 1292554315ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533271403: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:19,224 1292555404ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 142
+
+INFO  2009-08-07 12:44:20,767 1292556947ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 172
+
+INFO  2009-08-07 12:44:22,809 1292558989ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 143
+
+INFO  2009-08-07 12:44:23,179 1292559359ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533274098: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:23,779 1292559959ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 173
+
+INFO  2009-08-07 12:44:26,398 1292562578ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 144
+
+INFO  2009-08-07 12:44:26,790 1292562970ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 174
+
+INFO  2009-08-07 12:44:28,219 1292564399ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533276621: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:29,822 1292566002ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 175
+
+INFO  2009-08-07 12:44:30,020 1292566200ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 145
+
+INFO  2009-08-07 12:44:32,858 1292569038ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 176
+
+INFO  2009-08-07 12:44:33,188 1292569368ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533279238: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:33,662 1292569842ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 146
+
+INFO  2009-08-07 12:44:35,914 1292572094ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 177
+
+INFO  2009-08-07 12:44:37,261 1292573441ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 147
+
+INFO  2009-08-07 12:44:38,372 1292574552ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533281888: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:38,945 1292575125ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 178
+
+INFO  2009-08-07 12:44:40,932 1292577112ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 148
+
+INFO  2009-08-07 12:44:41,955 1292578135ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 179
+
+INFO  2009-08-07 12:44:43,287 1292579467ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533284477: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:44,525 1292580705ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 149
+
+INFO  2009-08-07 12:44:44,968 1292581148ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 180
+
+INFO  2009-08-07 12:44:47,979 1292584159ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 181
+
+INFO  2009-08-07 12:44:48,118 1292584298ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 150
+
+INFO  2009-08-07 12:44:48,305 1292584485ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533287056: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:51,032 1292587212ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 182
+
+INFO  2009-08-07 12:44:51,759 1292587939ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 151
+
+INFO  2009-08-07 12:44:53,361 1292589541ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533289630: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:54,043 1292590223ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 183
+
+INFO  2009-08-07 12:44:55,356 1292591536ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 152
+
+INFO  2009-08-07 12:44:57,055 1292593235ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 184
+
+INFO  2009-08-07 12:44:58,430 1292594610ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533292272: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:44:59,045 1292595225ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 153
+
+INFO  2009-08-07 12:45:00,061 1292596241ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 185
+
+INFO  2009-08-07 12:45:02,636 1292598816ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 154
+
+INFO  2009-08-07 12:45:03,073 1292599253ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 186
+
+INFO  2009-08-07 12:45:03,417 1292599597ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533294872: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:06,084 1292602264ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 187
+
+INFO  2009-08-07 12:45:06,283 1292602463ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 155
+
+INFO  2009-08-07 12:45:08,423 1292604603ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533297414: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:09,097 1292605277ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 188
+
+INFO  2009-08-07 12:45:09,908 1292606088ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 156
+
+INFO  2009-08-07 12:45:12,112 1292608292ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 189
+
+INFO  2009-08-07 12:45:13,507 1292609687ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533300084: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:13,516 1292609696ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 157
+
+INFO  2009-08-07 12:45:15,152 1292611332ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 190
+
+INFO  2009-08-07 12:45:17,130 1292613310ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 158
+
+INFO  2009-08-07 12:45:18,189 1292614369ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 191
+
+INFO  2009-08-07 12:45:18,513 1292614693ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533302653: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:20,717 1292616897ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 159
+
+INFO  2009-08-07 12:45:21,197 1292617377ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 192
+
+INFO  2009-08-07 12:45:23,552 1292619732ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533305298: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:24,213 1292620393ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 193
+
+INFO  2009-08-07 12:45:24,346 1292620526ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 160
+
+INFO  2009-08-07 12:45:27,222 1292623402ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 194
+
+INFO  2009-08-07 12:45:28,000 1292624180ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 161
+
+INFO  2009-08-07 12:45:28,534 1292624714ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533307803: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:30,251 1292626431ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 195
+
+INFO  2009-08-07 12:45:31,699 1292627879ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 162
+
+INFO  2009-08-07 12:45:33,263 1292629443ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 196
+
+INFO  2009-08-07 12:45:33,569 1292629749ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533310417: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:35,409 1292631589ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 163
+
+INFO  2009-08-07 12:45:36,285 1292632465ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 197
+
+INFO  2009-08-07 12:45:38,681 1292634861ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533313022: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:39,045 1292635225ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 164
+
+INFO  2009-08-07 12:45:39,298 1292635478ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 198
+
+INFO  2009-08-07 12:45:42,307 1292638487ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 199
+
+INFO  2009-08-07 12:45:42,677 1292638857ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 165
+
+INFO  2009-08-07 12:45:43,700 1292639880ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533315628: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:45,338 1292641518ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 200
+
+INFO  2009-08-07 12:45:46,361 1292642541ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 166
+
+INFO  2009-08-07 12:45:48,360 1292644540ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 201
+
+INFO  2009-08-07 12:45:48,715 1292644895ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533318255: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:50,047 1292646227ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 167
+
+INFO  2009-08-07 12:45:51,370 1292647550ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 202
+
+INFO  2009-08-07 12:45:53,733 1292649913ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533320852: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:45:53,734 1292649914ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 168
+
+INFO  2009-08-07 12:45:54,383 1292650563ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 203
+
+INFO  2009-08-07 12:45:57,387 1292653567ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 169
+
+INFO  2009-08-07 12:45:57,395 1292653575ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 204
+
+INFO  2009-08-07 12:45:58,750 1292654930ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533323441: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:00,435 1292656615ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 205
+
+INFO  2009-08-07 12:46:01,006 1292657186ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 170
+
+INFO  2009-08-07 12:46:03,445 1292659625ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 206
+
+INFO  2009-08-07 12:46:03,768 1292659948ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533326006: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:04,679 1292660859ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 171
+
+INFO  2009-08-07 12:46:06,531 1292662711ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 207
+
+INFO  2009-08-07 12:46:08,375 1292664555ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 172
+
+INFO  2009-08-07 12:46:08,785 1292664965ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533328621: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:09,545 1292665725ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 208
+
+INFO  2009-08-07 12:46:12,046 1292668226ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 173
+
+INFO  2009-08-07 12:46:12,550 1292668730ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 209
+
+INFO  2009-08-07 12:46:13,802 1292669982ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533331272: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:15,598 1292671778ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 210
+
+INFO  2009-08-07 12:46:15,648 1292671828ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 174
+
+INFO  2009-08-07 12:46:18,605 1292674785ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 211
+
+INFO  2009-08-07 12:46:18,806 1292674986ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533333898: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:19,331 1292675511ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 175
+
+INFO  2009-08-07 12:46:21,619 1292677799ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 212
+
+INFO  2009-08-07 12:46:22,925 1292679105ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 176
+
+INFO  2009-08-07 12:46:23,940 1292680120ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533336456: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:24,630 1292680810ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 213
+
+INFO  2009-08-07 12:46:26,601 1292682781ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 177
+
+INFO  2009-08-07 12:46:27,639 1292683819ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 214
+
+INFO  2009-08-07 12:46:28,956 1292685136ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533339029: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:30,197 1292686377ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 178
+
+INFO  2009-08-07 12:46:31,179 1292687359ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 215
+
+INFO  2009-08-07 12:46:33,872 1292690052ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 179
+
+INFO  2009-08-07 12:46:33,888 1292690068ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533341621: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:34,191 1292690371ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 216
+
+INFO  2009-08-07 12:46:37,200 1292693380ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 217
+
+INFO  2009-08-07 12:46:37,544 1292693724ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 180
+
+INFO  2009-08-07 12:46:38,991 1292695171ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533344253: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:40,211 1292696391ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 218
+
+INFO  2009-08-07 12:46:41,141 1292697321ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 181
+
+INFO  2009-08-07 12:46:43,223 1292699403ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 219
+
+INFO  2009-08-07 12:46:43,924 1292700104ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533346809: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:44,829 1292701009ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 182
+
+INFO  2009-08-07 12:46:46,231 1292702411ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 220
+
+INFO  2009-08-07 12:46:48,427 1292704607ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 183
+
+INFO  2009-08-07 12:46:49,047 1292705227ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533349417: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:49,243 1292705423ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 221
+
+INFO  2009-08-07 12:46:52,036 1292708216ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 184
+
+INFO  2009-08-07 12:46:52,254 1292708434ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 222
+
+INFO  2009-08-07 12:46:54,061 1292710241ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533352012: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:55,264 1292711444ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 223
+
+INFO  2009-08-07 12:46:55,687 1292711867ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 185
+
+INFO  2009-08-07 12:46:58,275 1292714455ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 224
+
+INFO  2009-08-07 12:46:59,164 1292715344ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533354696: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:46:59,372 1292715552ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 186
+
+INFO  2009-08-07 12:47:01,290 1292717470ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 225
+
+INFO  2009-08-07 12:47:03,057 1292719237ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 187
+
+INFO  2009-08-07 12:47:04,181 1292720361ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533357230: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:04,390 1292720570ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 226
+
+INFO  2009-08-07 12:47:06,739 1292722919ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 188
+
+INFO  2009-08-07 12:47:07,411 1292723591ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 227
+
+INFO  2009-08-07 12:47:09,121 1292725301ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533359804: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:10,429 1292726609ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 189
+
+INFO  2009-08-07 12:47:10,499 1292726679ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 228
+
+INFO  2009-08-07 12:47:13,593 1292729773ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 229
+
+INFO  2009-08-07 12:47:14,045 1292730225ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 190
+
+INFO  2009-08-07 12:47:14,204 1292730384ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533362492: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:16,616 1292732796ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 230
+
+INFO  2009-08-07 12:47:17,697 1292733877ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 191
+
+INFO  2009-08-07 12:47:19,247 1292735427ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533365007: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:19,630 1292735810ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 231
+
+INFO  2009-08-07 12:47:21,382 1292737562ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 192
+
+INFO  2009-08-07 12:47:22,641 1292738821ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 232
+
+INFO  2009-08-07 12:47:24,351 1292740531ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533367638: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:25,070 1292741250ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 193
+
+INFO  2009-08-07 12:47:25,658 1292741838ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 233
+
+INFO  2009-08-07 12:47:28,709 1292744889ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 194
+
+INFO  2009-08-07 12:47:28,742 1292744922ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 234
+
+INFO  2009-08-07 12:47:29,267 1292745447ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533370216: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:31,752 1292747932ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 235
+
+INFO  2009-08-07 12:47:32,340 1292748520ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 195
+
+INFO  2009-08-07 12:47:34,276 1292750456ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533372879: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:34,766 1292750946ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 236
+
+INFO  2009-08-07 12:47:35,977 1292752157ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 196
+
+INFO  2009-08-07 12:47:37,817 1292753997ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 237
+
+INFO  2009-08-07 12:47:39,403 1292755583ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533375480: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:40,532 1292756712ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 197
+
+INFO  2009-08-07 12:47:40,939 1292757119ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 238
+
+INFO  2009-08-07 12:47:43,981 1292760161ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 239
+
+INFO  2009-08-07 12:47:44,124 1292760304ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 198
+
+INFO  2009-08-07 12:47:44,324 1292760504ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533378072: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:46,988 1292763168ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 240
+
+INFO  2009-08-07 12:47:47,738 1292763918ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 199
+
+INFO  2009-08-07 12:47:49,315 1292765495ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533380678: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:50,023 1292766203ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 241
+
+INFO  2009-08-07 12:47:51,383 1292767563ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 200
+
+INFO  2009-08-07 12:47:53,041 1292769221ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 242
+
+INFO  2009-08-07 12:47:54,375 1292770555ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533383214: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:47:55,015 1292771195ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 201
+
+INFO  2009-08-07 12:47:56,054 1292772234ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 243
+
+INFO  2009-08-07 12:47:58,654 1292774834ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 202
+
+INFO  2009-08-07 12:47:59,064 1292775244ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 244
+
+INFO  2009-08-07 12:47:59,475 1292775655ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533385872: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:02,082 1292778262ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 245
+
+INFO  2009-08-07 12:48:02,285 1292778465ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 203
+
+INFO  2009-08-07 12:48:04,490 1292780670ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533388431: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:05,111 1292781291ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 246
+
+INFO  2009-08-07 12:48:05,925 1292782105ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 204
+
+INFO  2009-08-07 12:48:08,126 1292784306ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 247
+
+INFO  2009-08-07 12:48:09,486 1292785666ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533391075: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:09,609 1292785789ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 205
+
+INFO  2009-08-07 12:48:11,146 1292787326ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 248
+
+INFO  2009-08-07 12:48:13,295 1292789475ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 206
+
+INFO  2009-08-07 12:48:14,178 1292790358ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 249
+
+INFO  2009-08-07 12:48:14,524 1292790704ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533393667: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:16,880 1292793060ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 207
+
+INFO  2009-08-07 12:48:17,190 1292793370ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 250
+
+INFO  2009-08-07 12:48:19,503 1292795683ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533396204: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:20,251 1292796431ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 251
+
+INFO  2009-08-07 12:48:20,545 1292796725ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 208
+
+INFO  2009-08-07 12:48:23,258 1292799438ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 252
+
+INFO  2009-08-07 12:48:24,150 1292800330ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 209
+
+INFO  2009-08-07 12:48:24,566 1292800746ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533398825: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:26,269 1292802449ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 253
+
+INFO  2009-08-07 12:48:27,807 1292803987ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 210
+
+INFO  2009-08-07 12:48:29,279 1292805459ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 254
+
+INFO  2009-08-07 12:48:29,622 1292805802ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533401481: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:31,419 1292807599ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 211
+
+INFO  2009-08-07 12:48:32,290 1292808470ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 255
+
+INFO  2009-08-07 12:48:34,697 1292810877ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533404051: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:35,043 1292811223ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 212
+
+INFO  2009-08-07 12:48:35,347 1292811527ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 256
+
+INFO  2009-08-07 12:48:38,368 1292814548ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 257
+
+INFO  2009-08-07 12:48:38,650 1292814830ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 213
+
+INFO  2009-08-07 12:48:39,714 1292815894ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533406675: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:41,402 1292817582ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 258
+
+INFO  2009-08-07 12:48:42,264 1292818444ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 214
+
+INFO  2009-08-07 12:48:44,409 1292820589ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 259
+
+INFO  2009-08-07 12:48:44,730 1292820910ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533409263: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:45,959 1292822139ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 215
+
+INFO  2009-08-07 12:48:47,427 1292823607ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 260
+
+INFO  2009-08-07 12:48:49,647 1292825827ms SmppMessenger          timerElapsedEvent  - SMSJ:SMSJUNCTION02: EnquireLink SequenceNumber: 216
+
+INFO  2009-08-07 12:48:49,846 1292826026ms SmppMessenger          n_OnEnquireLinkReq - Enquire Link Received from VISAFONE:VISAFONE-CDMA-01: Sequence Number 533411866: connGuid 1562841c-c94a-4f24-a615-f0432d88717e
+
+INFO  2009-08-07 12:48:50,465 1292826645ms SmppMessenger          timerElapsedEvent  - VISAFONE:VISAFONE-CDMA-01: EnquireLink SequenceNumber: 261
+

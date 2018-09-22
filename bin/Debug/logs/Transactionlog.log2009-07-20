@@ -1,0 +1,44 @@
+INFO  2009-07-20 16:10:59,190 241918ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_OUT
+
+INFO  2009-07-20 16:10:59,190 241918ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_IN
+
+INFO  2009-07-20 16:10:59,284 242012ms SmppMessenger          itializeParameters - SMSJ:SMSJUNCTION02 Client Initialized Successfully
+
+INFO  2009-07-20 16:10:59,783 242511ms SmppMessenger          itializeParameters - VISAFONE:VISAFONE-CDMA-01 Client Initialized Successfully
+
+INFO  2009-07-20 16:10:59,799 242526ms SmppMessenger          Connect            - SMSJ:SMSJUNCTION02 Tranceiver Client Connected Successfully
+
+INFO  2009-07-20 16:10:59,799 242526ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2009-07-20 16:10:59,814 242542ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_IN
+
+INFO  2009-07-20 16:10:59,830 242558ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_OUT
+
+INFO  2009-07-20 16:11:33,791 31044ms SmppMessenger          itializeParameters - SMSJ:SMSJUNCTION02 Client Initialized Successfully
+
+INFO  2009-07-20 16:11:33,807 31059ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_OUT
+
+INFO  2009-07-20 16:11:33,807 31059ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\SMSJ_SMSJUNCTION02_IN
+
+INFO  2009-07-20 16:11:34,290 31543ms SmppMessenger          itializeParameters - VISAFONE:VISAFONE-CDMA-01 Client Initialized Successfully
+
+INFO  2009-07-20 16:11:34,290 31543ms Program                WaitforArrival     - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_IN
+
+INFO  2009-07-20 16:11:34,306 31558ms Program                WaitforDeparture   - Waiting for message assync... @ .\Private$\VISAFONE_VISAFONE-CDMA-01_OUT
+
+INFO  2009-07-20 16:11:34,353 31605ms SmppMessenger          Connect            - SMSJ:SMSJUNCTION02 Tranceiver Client Connected Successfully
+
+INFO  2009-07-20 16:11:34,368 31621ms Program                SmppMessageHandler - Bind Count as at Stated Period : 1
+
+INFO  2009-07-20 16:11:34,415 31668ms SmppMessenger          Connect            - VISAFONE:VISAFONE-CDMA-01 Tranceiver Client Connected Successfully
+
+INFO  2009-07-20 16:11:34,415 31668ms Program                SmppMessageHandler - Bind Count as at Stated Period : 2
+
+WARN  2009-07-20 16:11:34,821 32073ms Program                HttpReciverHandler - Http IP Host Address: 172.17.0.167
+
+INFO  2009-07-20 16:11:34,821 32073ms Program                CreateHttpListener - url=http://172.17.0.167:5021/
+
+INFO  2009-07-20 16:11:34,836 32089ms Program                ForOutGoingMessage - Waiting for message assync... .\Private$\VasOutQueue
+
+INFO  2009-07-20 16:11:34,836 32089ms Program                CreateHttpListener - Waiting for HTTP request to be processed asyncronously.
+INFO  2009-07-20 16:11:34,946 32198ms Program                WaitforEmail       - Waiting for message assync... @ System.Messaging.MessageQueue
